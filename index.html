@@ -1,4 +1,29 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Luxury RP — La vie que tu choisis</title><link rel="stylesheet" href="css/style.css"></head><body><header class="topbar"><div class="brand"><b>LR</b> LUXURY RP</div><nav class="nav"><a href="#ville">La ville</a><a href="#experiences">Expériences</a><a href="#database">Sociétés</a><a href="#action">Action</a><a href="#illegal">Illégal</a><a href="#panel">Panel</a><a href="#medias">Médias</a><a href="#faq">FAQ</a></nav></header><main><section id="accueil" class="hero"><div class="hero-content"><div class="eyebrow">Serveur FiveM français premium</div><h1>La vie que tu<br>choisis.</h1><p>Une ville RP ambitieuse, cinématique et exigeante : business, véhicules, mappings, événements, braquages, panel de contrôle et communauté Discord.</p><div class="btns"><a class="btn" href="#ville">Découvrir la ville</a><a class="btn alt" href="https://discord.gg/">Rejoindre la communauté</a></div></div><div class="scroll">DÉFILER</div></section>
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Luxury RP — La vie que tu choisis</title><link rel="stylesheet" href="css/style.css">
+<style id="luxury-carousel-fix">
+/* FIX V4.3.1 — Galerie premium compacte, autonome même si le CSS GitHub est en cache */
+#medias{overflow:hidden;}
+#medias .media-controls{max-width:1440px;margin:0 auto 24px!important;display:flex!important;align-items:center!important;justify-content:center!important;gap:18px!important;position:relative;z-index:4;}
+#medias .media-arrow{appearance:none;-webkit-appearance:none;width:56px!important;height:56px!important;border-radius:999px!important;border:1px solid rgba(245,200,91,.48)!important;background:radial-gradient(circle at 30% 20%,rgba(255,231,154,.22),rgba(245,200,91,.08) 46%,rgba(0,0,0,.62))!important;color:#f5c85b!important;display:grid!important;place-items:center!important;cursor:pointer!important;box-shadow:0 18px 55px rgba(0,0,0,.48), inset 0 0 26px rgba(245,200,91,.07)!important;transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease!important;padding:0!important;}
+#medias .media-arrow span{display:block!important;font-size:38px!important;line-height:.8!important;transform:translateY(-2px)!important;font-family:Georgia,serif!important;}
+#medias .media-arrow:hover{transform:translateY(-2px) scale(1.05)!important;border-color:rgba(245,200,91,.95)!important;box-shadow:0 24px 80px rgba(0,0,0,.58),0 0 28px rgba(245,200,91,.18)!important;}
+#medias .media-counter{min-width:142px!important;height:46px!important;border-radius:999px!important;border:1px solid rgba(214,162,54,.30)!important;background:rgba(8,7,5,.72)!important;backdrop-filter:blur(14px)!important;display:flex!important;align-items:center!important;justify-content:center!important;gap:13px!important;color:#f6d486!important;font-size:12px!important;font-weight:900!important;letter-spacing:.16em!important;line-height:1!important;}
+#medias .media-counter i{display:block!important;width:34px!important;height:1px!important;background:linear-gradient(90deg,transparent,#f5c85b,transparent)!important;opacity:.78!important;}
+#medias .gallery-carousel{max-width:1440px!important;margin:0 auto!important;position:relative!important;overflow:hidden!important;padding:0 8px!important;}
+#medias .gallery-carousel:before,#medias .gallery-carousel:after{content:""!important;position:absolute!important;top:0!important;bottom:18px!important;width:90px!important;z-index:3!important;pointer-events:none!important;}
+#medias .gallery-carousel:before{left:0!important;background:linear-gradient(90deg,#030302 4%,rgba(3,3,2,0))!important;}
+#medias .gallery-carousel:after{right:0!important;background:linear-gradient(270deg,#030302 4%,rgba(3,3,2,0))!important;}
+#medias .gallery-track{display:grid!important;grid-auto-flow:column!important;grid-template-rows:repeat(2,220px)!important;grid-auto-columns:calc((100% - 28px)/3)!important;gap:14px!important;overflow-x:auto!important;overflow-y:hidden!important;scroll-snap-type:x mandatory!important;scroll-behavior:smooth!important;padding:4px 4px 22px!important;max-width:none!important;margin:0!important;scrollbar-width:thin;scrollbar-color:rgba(245,200,91,.65) rgba(255,255,255,.06);}
+#medias .gallery-track::-webkit-scrollbar{height:8px;}
+#medias .gallery-track::-webkit-scrollbar-track{background:rgba(255,255,255,.06);border-radius:999px;}
+#medias .gallery-track::-webkit-scrollbar-thumb{background:linear-gradient(90deg,#8f641d,#f5c85b,#8f641d);border-radius:999px;}
+#medias .gallery-track img{display:block!important;width:100%!important;height:100%!important;max-width:none!important;object-fit:cover!important;border-radius:18px!important;border:1px solid rgba(214,162,54,.20)!important;cursor:pointer!important;scroll-snap-align:start!important;box-shadow:0 18px 55px rgba(0,0,0,.36)!important;transition:transform .35s ease,filter .35s ease,border-color .35s ease,box-shadow .35s ease!important;}
+#medias .gallery-track img:hover{transform:scale(1.025)!important;filter:saturate(1.12) contrast(1.06) brightness(1.05)!important;border-color:rgba(245,200,91,.68)!important;box-shadow:0 28px 86px rgba(0,0,0,.58),0 0 34px rgba(245,200,91,.14)!important;}
+.lightbox{cursor:zoom-out;}
+.lightbox.open{display:flex!important;}
+@media(max-width:900px){#medias .media-controls{gap:10px!important}#medias .media-arrow{width:46px!important;height:46px!important}#medias .media-counter{min-width:112px!important}#medias .gallery-track{grid-template-rows:repeat(2,170px)!important;grid-auto-columns:calc((100% - 12px)/2)!important;gap:12px!important}#medias .gallery-carousel:before,#medias .gallery-carousel:after{width:38px!important}}
+@media(max-width:560px){#medias .gallery-track{grid-template-rows:repeat(2,150px)!important;grid-auto-columns:82%!important}}
+</style>
+</head><body><header class="topbar"><div class="brand"><b>LR</b> LUXURY RP</div><nav class="nav"><a href="#ville">La ville</a><a href="#experiences">Expériences</a><a href="#database">Sociétés</a><a href="#action">Action</a><a href="#illegal">Illégal</a><a href="#panel">Panel</a><a href="#medias">Médias</a><a href="#faq">FAQ</a></nav></header><main><section id="accueil" class="hero"><div class="hero-content"><div class="eyebrow">Serveur FiveM français premium</div><h1>La vie que tu<br>choisis.</h1><p>Une ville RP ambitieuse, cinématique et exigeante : business, véhicules, mappings, événements, braquages, panel de contrôle et communauté Discord.</p><div class="btns"><a class="btn" href="#ville">Découvrir la ville</a><a class="btn alt" href="https://discord.gg/">Rejoindre la communauté</a></div></div><div class="scroll">DÉFILER</div></section>
 <section id="ville" class="section"><div class="split"><div class="panel"><div class="eyebrow">Chapitre 01 — La ville</div><h3>Un univers premium, conçu pour l’immersion.</h3><p>Luxury RP met en scène une ville élégante, vivante et contrastée : lieux iconiques, routes de nuit, entreprises, zones d’action et décors pensés pour créer des histoires mémorables.</p></div><img class="wide-img" src="assets/img/ville/ville_skyline_sunset_01.webp" alt="Ville Luxury RP"></div></section>
 <section id="experiences" class="section"><div class="section-title"><div class="eyebrow">Chapitre 02 — Expériences</div><h2>Des lieux qui donnent envie de jouer.</h2><p>Chaque carte ouvre une page dédiée à la société avec visuels, description et accès Discord.</p></div><div class="cards"><a class="card" href="jobs/paradise-mechanic.html"><img src="assets/img/experiences/experience_paradise_mechanic_03.webp" alt="Paradise Mechanic"><div><small>Mécano & rooftop</small><h3>Paradise Mechanic</h3><p>Atelier custom, culture automobile, rassemblements, runs et soirées au coucher de soleil.</p></div></a>
 <a class="card" href="jobs/luxury-motors.html"><img src="assets/img/experiences/experience_concessionaire_voiture_01.webp" alt="Luxury Motors"><div><small>Concessionnaire premium</small><h3>Luxury Motors</h3><p>Véhicules d’exception, exposition, livraison, essais et identité moteur.</p></div></a>
@@ -126,4 +151,37 @@
 <img data-lightbox src="assets/img/illegal/illegal_gang_vagos_01.webp" alt="Luxury RP media">
 <img data-lightbox src="assets/img/illegal/illegal_recolte_01.webp" alt="Luxury RP media">
 <img data-lightbox src="assets/img/illegal/illegal_recolte_weed_01.webp" alt="Luxury RP media">
-<img data-lightbox src="assets/img/illegal/illegal_traffic_01.webp" alt="Luxury RP media"></div></div></section><section id="faq" class="section"><div class="section-title"><div class="eyebrow">FAQ</div><h2 style="font-size:42px">Questions fréquentes.</h2></div><div class="faq"><details><summary>Luxury RP est quel type de serveur ?</summary><p>Un serveur FiveM français premium, orienté immersion, esthétique, business, action et progression RP.</p></details><details><summary>Comment rejoindre la ville ?</summary><p>Le parcours se fait via Discord : informations, whitelist, support et annonces y sont centralisés.</p></details><details><summary>Peut-on rejoindre une entreprise ?</summary><p>Oui. Les sociétés visibles disposent de pages dédiées et peuvent rediriger vers leur Discord ou leur canal de recrutement.</p></details><details><summary>Le côté illégal est-il encadré ?</summary><p>Oui. Il est pensé pour créer du jeu, avec préparation, risques, rivalités et conséquences RP.</p></details><details><summary>Le site peut-il évoluer ?</summary><p>Oui. Les images sont rangées proprement dans assets/img et les sections peuvent être enrichies facilement.</p></details></div></section></main><footer class="footer"><div><b>Luxury RP</b><p>La vie que tu choisis.</p></div><div><a class="btn alt" href="terms.html">Conditions</a> <a class="btn alt" href="privacy.html">Confidentialité</a> <a class="btn" href="support.html">Support</a></div></footer><div class="lightbox"><img src="" alt="Aperçu"></div><script src="js/main.js"></script></body></html>
+<img data-lightbox src="assets/img/illegal/illegal_traffic_01.webp" alt="Luxury RP media"></div></div></section><section id="faq" class="section"><div class="section-title"><div class="eyebrow">FAQ</div><h2 style="font-size:42px">Questions fréquentes.</h2></div><div class="faq"><details><summary>Luxury RP est quel type de serveur ?</summary><p>Un serveur FiveM français premium, orienté immersion, esthétique, business, action et progression RP.</p></details><details><summary>Comment rejoindre la ville ?</summary><p>Le parcours se fait via Discord : informations, whitelist, support et annonces y sont centralisés.</p></details><details><summary>Peut-on rejoindre une entreprise ?</summary><p>Oui. Les sociétés visibles disposent de pages dédiées et peuvent rediriger vers leur Discord ou leur canal de recrutement.</p></details><details><summary>Le côté illégal est-il encadré ?</summary><p>Oui. Il est pensé pour créer du jeu, avec préparation, risques, rivalités et conséquences RP.</p></details><details><summary>Le site peut-il évoluer ?</summary><p>Oui. Les images sont rangées proprement dans assets/img et les sections peuvent être enrichies facilement.</p></details></div></section></main><footer class="footer"><div><b>Luxury RP</b><p>La vie que tu choisis.</p></div><div><a class="btn alt" href="terms.html">Conditions</a> <a class="btn alt" href="privacy.html">Confidentialité</a> <a class="btn" href="support.html">Support</a></div></footer><div class="lightbox"><img src="" alt="Aperçu"></div><script src="js/main.js"></script>
+<script id="luxury-carousel-fix-js">
+(() => {
+  const track = document.querySelector('#medias .gallery-track');
+  const prev = document.querySelector('#medias .media-prev');
+  const next = document.querySelector('#medias .media-next');
+  const current = document.querySelector('#mediaCurrent');
+  const total = document.querySelector('#mediaTotal');
+  const lightbox = document.querySelector('.lightbox');
+  const pad = n => String(Math.max(1, n)).padStart(2,'0');
+  function update(){
+    if(!track || !current || !total) return;
+    const imgs = track.querySelectorAll('img');
+    const max = Math.max(1, track.scrollWidth - track.clientWidth);
+    const index = Math.round((track.scrollLeft / max) * Math.max(1, imgs.length - 1)) + 1;
+    current.textContent = pad(index);
+    total.textContent = pad(imgs.length);
+  }
+  function step(){ return track ? Math.max(360, track.clientWidth * .86) : 0; }
+  prev?.addEventListener('click', e => { e.preventDefault(); track?.scrollBy({left:-step(), behavior:'smooth'}); });
+  next?.addEventListener('click', e => { e.preventDefault(); track?.scrollBy({left: step(), behavior:'smooth'}); });
+  track?.addEventListener('scroll', () => requestAnimationFrame(update), {passive:true});
+  track?.querySelectorAll('img').forEach(img => img.addEventListener('click', () => {
+    if(!lightbox) return;
+    const preview = lightbox.querySelector('img');
+    if(preview) preview.src = img.src;
+    lightbox.classList.add('open');
+  }));
+  lightbox?.addEventListener('click', () => lightbox.classList.remove('open'));
+  window.addEventListener('load', update);
+  update();
+})();
+</script>
+</body></html>

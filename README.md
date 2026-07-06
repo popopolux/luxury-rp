@@ -1,14 +1,12 @@
-# Luxury RP — V4.2 Correctifs Structure Officielle
+# Luxury RP — V4.3.1 Galerie corrigée
 
-Dossier complet prêt à upload sur GitHub Pages.
+Correctif direct du carrousel médias :
 
-## Correctifs inclus
-- Structure officielle basée sur la liste validée.
-- Séparation claire : partie légale / partie illégale.
-- Suppression des filtres visuels de la database.
-- Retrait de Staff Origin de la grille RP.
-- Regroupements logiques : institutions, automobile, restauration, nuit, organisations, mafias, gangs, cartels.
-- Carte Braquages corrigée avec `illegal_braquage_bank_01.webp`.
-- Pages métiers manquantes ajoutées : Legendary Motors Sport, Nightclub, Ballas Records, Bloods, SOA.
+- images en 2 lignes compactes ;
+- flèches premium gauche/droite ;
+- compteur discret ;
+- lightbox plein écran ;
+- CSS critique intégré dans `index.html` pour éviter les soucis de cache GitHub Pages ;
+- JS de secours intégré dans `index.html`.
 
-V4.3 : galerie médias transformée en carrousel premium compact avec flèches gauche/droite, compteur, hover doré et lightbox plein écran.
+Upload le dossier complet à la racine du dépôt GitHub Pages.
