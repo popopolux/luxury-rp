@@ -10,3 +10,5 @@ Dossier complet prêt à upload sur GitHub Pages.
 - Regroupements logiques : institutions, automobile, restauration, nuit, organisations, mafias, gangs, cartels.
 - Carte Braquages corrigée avec `illegal_braquage_bank_01.webp`.
 - Pages métiers manquantes ajoutées : Legendary Motors Sport, Nightclub, Ballas Records, Bloods, SOA.
+
+V4.3 : galerie médias transformée en carrousel premium compact avec flèches gauche/droite, compteur, hover doré et lightbox plein écran.
