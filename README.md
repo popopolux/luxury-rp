@@ -1,20 +1,18 @@
-# Luxury RP — V4 complète propre
+# Luxury RP — V4.1 Sociétés (base V4 conservée)
 
-Dossier complet prêt à uploader sur GitHub Pages.
+Cette version conserve l'identité de `luxury-rp-v4-complet-propre` et ajoute une vraie base de pages sociétés.
 
-## Contenu
-- 1 page principale : `index.html`
-- Pages jobs : dossier `jobs/`
-- CSS : `css/style.css`
-- JS : `js/main.js`
-- Images propres : `assets/img/`
+## Ajouts
+- Section `Luxury Database` sur la home
+- Filtres : Institutions / Sociétés / Gangs / Mafias / Organisations
+- 49 fiches dédiées dans `/jobs/`
+- Chaque fiche contient : hero, présentation, missions, grades, galerie, bouton Discord
+- Les images manquantes sont temporairement remplacées par des visuels cohérents existants
 
-## Comptage images
-- Hero accueil : 1
-- Ville : 12
-- Expériences / jobs : 25
-- Illégal : 17
-- Total images site : 55
+## À remplacer plus tard
+- Les liens Discord génériques `https://discord.gg/`
+- Les visuels dupliqués pour certaines sociétés/gangs/mafias
+- Les grades selon l'organisation définitive en ville
 
-## Upload GitHub
-Supprimer/remplacer les anciens fichiers, puis uploader tout le contenu de ce dossier.
+## Upload
+Glisser tout le contenu de ce dossier sur GitHub, puis `Commit changes`.
