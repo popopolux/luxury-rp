@@ -1,12 +1,11 @@
-# Luxury RP — V4.3.1 Galerie corrigée
+# Luxury RP — V4.3.2 Galerie WOW
 
-Correctif direct du carrousel médias :
+Correctif premium basé sur la V4.3.1 validée.
 
-- images en 2 lignes compactes ;
-- flèches premium gauche/droite ;
-- compteur discret ;
-- lightbox plein écran ;
-- CSS critique intégré dans `index.html` pour éviter les soucis de cache GitHub Pages ;
-- JS de secours intégré dans `index.html`.
+## Ajouts
+- Hover cinématique sur les médias
+- Flèches plus luxe avec reflet doré animé
+- Slide plus fluide avec easing visuel
+- Lightbox enrichie : titre, description, boutons Discord / sociétés
 
-Upload le dossier complet à la racine du dépôt GitHub Pages.
+Upload complet du dossier à la racine GitHub Pages.
