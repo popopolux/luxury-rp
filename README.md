@@ -1,4 +1,4 @@
-# Luxury RP — V4.5.0 Official Ecosystem
+# Luxury RP — V4.5.1 Gameplay Background
 
 Version stable basée sur `luxury-rp-v4-complet-propre`, enrichie sans casser l'identité graphique validée.
 
