@@ -37,3 +37,33 @@ document.querySelectorAll('[data-scroll-top]').forEach(btn => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 });
+
+
+// V4.5.4 — navigation retour intelligent + stockage position depuis la page principale
+const LR_RETURN_KEY = 'luxuryRP_returnY';
+const LR_INDEX_SCROLL_KEY = 'luxuryRP_indexScrollY';
+
+document.querySelectorAll('a[href^="jobs/"]').forEach(link => {
+  link.addEventListener('click', () => {
+    sessionStorage.setItem(LR_INDEX_SCROLL_KEY, String(window.scrollY || window.pageYOffset || 0));
+  });
+});
+
+document.querySelectorAll('[data-smart-return]').forEach(link => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+    const saved = sessionStorage.getItem(LR_INDEX_SCROLL_KEY);
+    if (saved) sessionStorage.setItem(LR_RETURN_KEY, saved);
+    window.location.href = link.getAttribute('href') || '../index.html#database';
+  });
+});
+
+window.addEventListener('load', () => {
+  const saved = sessionStorage.getItem(LR_RETURN_KEY);
+  if (!saved) return;
+  sessionStorage.removeItem(LR_RETURN_KEY);
+  const y = Number(saved);
+  if (Number.isFinite(y)) {
+    setTimeout(() => window.scrollTo({ top: y, behavior: 'smooth' }), 80);
+  }
+});

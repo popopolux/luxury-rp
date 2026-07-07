@@ -1,4 +1,4 @@
-# Luxury RP — V4.5.1 Gameplay Background
+# Luxury RP — V4.5.4 Final Premium Polish
 
 Version stable basée sur `luxury-rp-v4-complet-propre`, enrichie sans casser l'identité graphique validée.
 
