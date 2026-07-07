@@ -21,3 +21,13 @@ Dossier complet prêt à uploader à la racine GitHub Pages.
 
 ## Upload
 Supprimer l’ancien contenu du dépôt puis uploader tout le contenu de ce dossier.
+
+
+## V4.3.8 — Ordre Expériences & nouveaux visuels
+
+- Conservation de la partie Services publics : LSPD, BCSO, EMS Nord, EMS Sud, Gouvernement, Weazel News, Agent Immobilier.
+- Réorganisation des sociétés : Concessionnaire / Garage, Restauration / Bar, Events / Club.
+- Vigneron placé en Restauration / Bar.
+- Ajout Fight Club dans Events / Club avec page dédiée.
+- Remplacement visuels : EMS Nord, EMS Sud, LS Custom, Gouvernement, BCSO.
+- Manifest images mis à jour.
