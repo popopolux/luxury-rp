@@ -1,17 +1,23 @@
-# Luxury RP — V4.3.2 Galerie WOW
+# Luxury RP — V4.3.5 Correctif Alamo Island
 
-Correctif premium basé sur la V4.3.1 validée.
+Dossier complet prêt à uploader à la racine GitHub Pages.
 
-## Ajouts
-- Hover cinématique sur les médias
-- Flèches plus luxe avec reflet doré animé
-- Slide plus fluide avec easing visuel
-- Lightbox enrichie : titre, description, boutons Discord / sociétés
+## Corrections V4.3.5
+- Ajout de **Alamo Island** en société légale — Restaurant situé vers Sandy Shores.
+- Ajout de la page dédiée : `jobs/alamo-island.html`.
+- Ajout du visuel : `assets/img/experiences/experience_alamo_island_01.webp`.
+- Mise à jour du carrousel Médias avec Alamo Island.
+- Mise à jour du `README.md` racine.
+- Mise à jour du manifest images : `assets/MANIFEST_IMAGES.txt`.
 
-Upload complet du dossier à la racine GitHub Pages.
+## Structure conservée
+- Hero V3 restauré.
+- Partie légale structurée : institutions, automobile/marina/circuit, restauration/prestige, nuit/loisirs/culture.
+- Partie illégale structurée : gangs, mafias, cartels/organisations criminelles.
+- Galerie premium compacte avec lightbox.
 
+## Comptage images
+- Médias galerie : 65 visuels.
+- Manifest complet : 78 fichiers image référencés.
 
-## V4.3.4 — Correctif sociétés & gangs
-- Fusion Organisations / Clubs avec Gangs.
-- Suppression Candy Block et Vilanueva de la page principale.
-- Ajout des nouveaux visuels : Benny's, Casino, Wiwang Tower, Ballas Records, Cartel Cayo, gangs Ballas/Families/Bloods/Vagos.
+Upload conseillé : supprimer l’ancien contenu du dépôt puis uploader tout le contenu de ce dossier.
