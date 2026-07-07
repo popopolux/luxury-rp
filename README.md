@@ -20,4 +20,3 @@ Dossier complet prêt à uploader à la racine GitHub Pages.
 - Médias galerie : 65 visuels.
 - Manifest complet : 78 fichiers image référencés.
 
-Upload conseillé : supprimer l’ancien contenu du dépôt puis uploader tout le contenu de ce dossier.
