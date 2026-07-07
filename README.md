@@ -1,4 +1,4 @@
-# Luxury RP — V4.5.1 Gameplay Background
+# Luxury RP — V4.5.2 Final Polish
 
 Version stable basée sur `luxury-rp-v4-complet-propre`, enrichie sans casser l'identité graphique validée.
 
@@ -38,3 +38,9 @@ assets/MANIFEST_IMAGES.txt
 ## Upload GitHub
 
 Dézipper le dossier, glisser tout le contenu à la racine du dépôt GitHub puis `Commit changes`.
+
+
+## Mise à jour V4.5.2
+- Polish global des espacements haut/bas entre sections.
+- Bouton RETOUR intelligent sur les fiches sociétés : retour à la position précédente quand la fiche est ouverte depuis la page principale.
+- Ajout des boutons PRÉCÉDENT / SUIVANT pour naviguer entre les fiches sociétés sans repasser par la page principale.
