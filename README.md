@@ -1,40 +1,23 @@
-## V4.3.9 — Galeries entreprises corrigées
-
-- Harmonisation des images de bandeau et galeries sur les pages entreprises / institutions / monde illégal.
-- Casino corrigé : visuels Casino dédiés en hero et galerie.
-- Pages sociétés alimentées avec les visuels déjà présents dans le dossier `assets/img`.
-- Manifest images conservé à jour.
-
-# Luxury RP — V4.3.7 Correctif Monde Illégal
+# Luxury RP — V4.4.0 Correctifs expériences, galeries et mentions
 
 Dossier complet prêt à uploader à la racine GitHub Pages.
 
-## Corrections V4.3.7
-- Remplacement global de l’ancien libellé par **Monde illégal**.
-- Restructuration officielle de la partie illégale :
-  - **Monde Illégal — Gangs** : Ballas, Families, Bloods, Vagos, Marabunta.
-  - **Monde Illégal — Mafias / Bikers** : Bratva, Mafia Arménienne, Duggan, Cosa Nostra, Lost MC, SOA.
-  - **Monde Illégal — Cartels / Orga** : Cartel Cayo.
-- Ajout de la fiche dédiée : `jobs/cosa-nostra.html`.
-- Lost MC et SOA déplacés dans **Mafias / Bikers**.
-- README racine mis à jour.
+## Corrections principales
+- Section **Chapitre 02 — Expériences** transformée en aperçu global de ville : paysages, routes, skyline, plage, port et quartiers.
+- Les sociétés restent structurées dans la section dédiée **Partie légale / Sociétés, institutions & lieux officiels**.
+- Galeries des pages métiers harmonisées : nombre d’images adapté aux visuels disponibles.
+- Lorsqu’une page ne dispose que d’un seul visuel, la galerie conserve une structure lisible avec image dupliquée, prête à remplacer plus tard.
+- Boutons retour simplifiés en **RETOUR**.
+- Pages légales enrichies : confidentialité, cookies, mentions légales, support.
+- Ajout du copyright : **copyright © LuxuryRP 2026**.
+- Manifest images mis à jour : `assets/MANIFEST_IMAGES.txt`.
 
-## Structure conservée
-- Hero V3 restauré.
-- Partie légale structurée : institutions, automobile/marina/circuit, restauration/prestige, nuit/loisirs/culture.
-- Partie illégale structurée selon la hiérarchie officielle.
-- Galerie premium compacte avec lightbox.
-- Alamo Island présent dans **Restauration & prestige**.
+## Structure
+- `index.html` : page principale.
+- `jobs/` : pages entreprises / institutions / monde illégal.
+- `assets/img/` : visuels classés par familles.
+- `css/style.css` : style premium Luxury RP.
+- `js/main.js` : interactions, galerie, animations.
 
 ## Upload
 Supprimer l’ancien contenu du dépôt puis uploader tout le contenu de ce dossier.
-
-
-## V4.3.8 — Ordre Expériences & nouveaux visuels
-
-- Conservation de la partie Services publics : LSPD, BCSO, EMS Nord, EMS Sud, Gouvernement, Weazel News, Agent Immobilier.
-- Réorganisation des sociétés : Concessionnaire / Garage, Restauration / Bar, Events / Club.
-- Vigneron placé en Restauration / Bar.
-- Ajout Fight Club dans Events / Club avec page dédiée.
-- Remplacement visuels : EMS Nord, EMS Sud, LS Custom, Gouvernement, BCSO.
-- Manifest images mis à jour.
