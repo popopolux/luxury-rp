@@ -1,23 +1,40 @@
-# Luxury RP — V4.4.0 Correctifs expériences, galeries et mentions
+# Luxury RP — V4.5.0 Official Ecosystem
 
-Dossier complet prêt à uploader à la racine GitHub Pages.
+Version stable basée sur `luxury-rp-v4-complet-propre`, enrichie sans casser l'identité graphique validée.
 
-## Corrections principales
-- Section **Chapitre 02 — Expériences** transformée en aperçu global de ville : paysages, routes, skyline, plage, port et quartiers.
-- Les sociétés restent structurées dans la section dédiée **Partie légale / Sociétés, institutions & lieux officiels**.
-- Galeries des pages métiers harmonisées : nombre d’images adapté aux visuels disponibles.
-- Lorsqu’une page ne dispose que d’un seul visuel, la galerie conserve une structure lisible avec image dupliquée, prête à remplacer plus tard.
-- Boutons retour simplifiés en **RETOUR**.
-- Pages légales enrichies : confidentialité, cookies, mentions légales, support.
-- Ajout du copyright : **copyright © LuxuryRP 2026**.
-- Manifest images mis à jour : `assets/MANIFEST_IMAGES.txt`.
+## Contenu principal
 
-## Structure
-- `index.html` : page principale.
-- `jobs/` : pages entreprises / institutions / monde illégal.
-- `assets/img/` : visuels classés par familles.
-- `css/style.css` : style premium Luxury RP.
-- `js/main.js` : interactions, galerie, animations.
+- Hero V3 conservé avec avion Luxury RP.
+- Section Expériences recentrée sur la ville, les paysages, Cayo et l'ambiance générale.
+- Section écosystème restructurée : Pôle légal / Pôle illégal.
+- Catégories officielles : Institutions & services publics, Concessionnaires & garages, Restauration & art de vivre, Divertissements & événements, Gangs, Mafias & Bikers, Cartels & Organisations.
+- 37 fiches dédiées dans `/jobs/`.
+- Galeries de fiches adaptées aux visuels disponibles.
+- Galerie médias compacte avec carrousel.
+- Mentions légales, confidentialité, cookies et support mis à jour.
+- Footer : Copyright © LuxuryRP 2026.
 
-## Upload
-Supprimer l’ancien contenu du dépôt puis uploader tout le contenu de ce dossier.
+## Arborescence
+
+```txt
+index.html
+privacy.html
+cookies.html
+terms.html
+support.html
+css/style.css
+js/main.js
+jobs/*.html
+assets/img/**
+assets/MANIFEST_IMAGES.txt
+```
+
+## Chiffres
+
+- Entités officielles : 37
+- Fichiers assets : 93
+- Fichiers totaux du dossier : 138
+
+## Upload GitHub
+
+Dézipper le dossier, glisser tout le contenu à la racine du dépôt GitHub puis `Commit changes`.

@@ -49,3 +49,28 @@
 @media(max-width:560px){.gallery-track{grid-template-rows:repeat(2,150px);grid-auto-columns:82%}.media-counter{font-size:10px}}
 
 .legal-panel{max-width:980px;margin:auto;line-height:1.8}.legal-panel h4{font-size:18px;margin:28px 0 8px;color:var(--gold);letter-spacing:.08em;text-transform:uppercase}.experience-overview .card{cursor:default}
+
+
+/* V4.5.0 — Official Ecosystem polish */
+.ecosystem-title{max-width:1080px;margin-bottom:86px;}
+.ecosystem-title h2{font-size:clamp(46px,5.4vw,88px);}
+.ecosystem-title p + p{margin-top:14px;color:#c6b69b;}
+.pole-heading{border-top:1px solid rgba(214,162,54,.24);border-bottom:1px solid rgba(214,162,54,.14);background:linear-gradient(180deg,rgba(255,255,255,.025),rgba(255,255,255,0));border-radius:34px;}
+.illegal-super-block-clean{padding-top:76px;border-top:1px solid rgba(214,162,54,.20);background:none!important;border-radius:0!important;}
+.illegal-intro-panel{max-width:1040px;margin:0 auto 78px!important;background:radial-gradient(circle at 50% 0%,rgba(148,22,12,.24),rgba(46,5,3,.18) 42%,rgba(3,3,2,.04));border:1px solid rgba(245,88,62,.22);box-shadow:0 34px 120px rgba(0,0,0,.44),0 0 60px rgba(140,20,12,.08);}
+.illegal-intro-panel .eyebrow{color:#ffb36f;}
+.illegal-intro-panel h2{color:#fff1dc;}
+.illegal-intro-panel p{max-width:740px;}
+.official-category{scroll-margin-top:90px;}
+.official-category .category-heading{padding-left:18px;border-left:1px solid rgba(245,200,91,.42);}
+.official-category .category-heading h3{text-transform:uppercase;letter-spacing:.02em;font-size:clamp(28px,2.7vw,46px);}
+.official-card img{filter:saturate(1.04) contrast(1.02);}
+.official-card:hover img{filter:saturate(1.12) contrast(1.06) brightness(1.04);}
+.experience-overview .card img{height:250px;}
+.experience-overview .card:hover{transform:translateY(-4px);}
+.job-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px;}
+.job-meta-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:20px;}
+.job-meta-grid div{border:1px solid rgba(214,162,54,.18);border-radius:18px;padding:18px;background:rgba(255,255,255,.025);}
+.job-meta-grid b{display:block;color:var(--gold2);font-size:11px;letter-spacing:.22em;text-transform:uppercase;margin-bottom:8px;}
+.job-note{color:#cbbda7;line-height:1.75;}
+@media(max-width:900px){.job-meta-grid{grid-template-columns:1fr}.ecosystem-title{margin-bottom:54px}.illegal-super-block-clean{padding-top:52px}.illegal-intro-panel{margin-bottom:50px!important}.experience-overview .card img{height:230px}}
