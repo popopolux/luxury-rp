@@ -32,22 +32,8 @@ window.addEventListener('resize', updateMediaCounter);
 updateMediaCounter();
 
 
-// V4.5.2 — retour intelligent depuis les fiches société
-// Si la fiche a été ouverte depuis la page principale, on revient à la position exacte du scroll.
-// Si la fiche a été ouverte directement ou depuis une autre fiche, on revient proprement à la section Sociétés.
-document.querySelectorAll('.smart-return').forEach(link => {
-  link.addEventListener('click', event => {
-    event.preventDefault();
-    const fallback = link.getAttribute('href') || '../index.html#database';
-    try {
-      const ref = document.referrer ? new URL(document.referrer) : null;
-      const sameOrigin = ref && ref.origin === window.location.origin;
-      const fromMainPage = sameOrigin && !ref.pathname.includes('/jobs/');
-      if (fromMainPage && window.history.length > 1) {
-        window.history.back();
-        return;
-      }
-    } catch (error) {}
-    window.location.href = fallback;
+document.querySelectorAll('[data-scroll-top]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 });
