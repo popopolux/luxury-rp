@@ -1,4 +1,4 @@
-# Luxury RP — V4.3.5 Correctif Alamo Island
+# Luxury RP — V4.3.6 Correctif Alamo Island affiché
 
 Dossier complet prêt à uploader à la racine GitHub Pages.
 
@@ -20,3 +20,8 @@ Dossier complet prêt à uploader à la racine GitHub Pages.
 - Médias galerie : 65 visuels.
 - Manifest complet : 78 fichiers image référencés.
 
+Upload conseillé : supprimer l’ancien contenu du dépôt puis uploader tout le contenu de ce dossier.
+
+## Correctif V4.3.6
+- Alamo Island ajouté dans la section **Pôle légal / Restauration & prestige** de la Luxury Database.
+- Compteur médias vérifié et manifest image conservé à jour.
