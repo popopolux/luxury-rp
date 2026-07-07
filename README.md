@@ -1,3 +1,10 @@
+## V4.3.9 — Galeries entreprises corrigées
+
+- Harmonisation des images de bandeau et galeries sur les pages entreprises / institutions / monde illégal.
+- Casino corrigé : visuels Casino dédiés en hero et galerie.
+- Pages sociétés alimentées avec les visuels déjà présents dans le dossier `assets/img`.
+- Manifest images conservé à jour.
+
 # Luxury RP — V4.3.7 Correctif Monde Illégal
 
 Dossier complet prêt à uploader à la racine GitHub Pages.
