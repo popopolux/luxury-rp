@@ -50,6 +50,75 @@
 .lightbox .lb-close{position:fixed!important;right:28px!important;top:24px!important;width:46px!important;height:46px!important;border-radius:999px!important;border:1px solid rgba(245,200,91,.38)!important;background:rgba(0,0,0,.58)!important;color:#f5c85b!important;font-size:25px!important;cursor:pointer!important;}
 @media(max-width:700px){.lightbox{padding:18px!important}.lightbox img{max-height:60vh!important}.lightbox .lb-title{font-size:28px!important}}
 </style>
+
+<style id="luxury-carousel-v433-overrides">
+/* V4.3.3 — flèches ruban premium + slide Netflix plus lent */
+#medias .media-controls{gap:16px!important;margin-top:26px!important;margin-bottom:30px!important;}
+#medias .media-arrow{
+  width:96px!important;
+  height:44px!important;
+  border-radius:999px!important;
+  position:relative!important;
+  overflow:hidden!important;
+  border:1px solid rgba(245,200,91,.38)!important;
+  background:linear-gradient(180deg,rgba(22,18,10,.82),rgba(4,4,3,.72))!important;
+  backdrop-filter:blur(14px)!important;
+  box-shadow:0 18px 54px rgba(0,0,0,.55),inset 0 0 0 1px rgba(255,238,180,.04)!important;
+  transform:none!important;
+}
+#medias .media-arrow:before{
+  content:""!important;
+  position:absolute!important;
+  top:50%!important;
+  width:42px!important;
+  height:1px!important;
+  border-radius:999px!important;
+  background:linear-gradient(90deg,transparent,rgba(245,200,91,.95),transparent)!important;
+  opacity:.75!important;
+  transform:translateY(-50%)!important;
+  inset:auto!important;
+}
+#medias .media-prev:before{right:18px!important;}
+#medias .media-next:before{left:18px!important;}
+#medias .media-arrow:after{
+  content:""!important;
+  position:absolute!important;
+  top:-80%!important;left:-70%!important;
+  width:42%!important;height:260%!important;
+  background:linear-gradient(90deg,transparent,rgba(255,239,184,.42),transparent)!important;
+  transform:rotate(24deg)!important;
+  transition:left .85s cubic-bezier(.16,1,.3,1), opacity .35s ease!important;
+  opacity:.55!important;
+}
+#medias .media-arrow:hover{
+  transform:translateY(-3px)!important;
+  border-color:rgba(245,200,91,.92)!important;
+  box-shadow:0 26px 82px rgba(0,0,0,.66),0 0 34px rgba(245,200,91,.22),inset 0 0 24px rgba(245,200,91,.08)!important;
+}
+#medias .media-arrow:hover:after{left:132%!important;opacity:.95!important;}
+#medias .media-arrow span{
+  position:absolute!important;
+  top:50%!important;
+  width:auto!important;
+  font-size:31px!important;
+  line-height:1!important;
+  color:#f8d981!important;
+  text-shadow:0 0 20px rgba(245,200,91,.45)!important;
+  transform:translateY(-54%)!important;
+  z-index:2!important;
+}
+#medias .media-prev span{left:18px!important;}
+#medias .media-next span{right:18px!important;}
+#medias .media-counter{
+  height:44px!important;min-width:122px!important;
+  background:linear-gradient(180deg,rgba(16,13,8,.82),rgba(3,3,2,.74))!important;
+  border-color:rgba(245,200,91,.28)!important;
+}
+#medias .gallery-track{scroll-behavior:auto!important;}
+#medias .gallery-track.luxury-sliding{pointer-events:none!important;}
+#medias .gallery-track.luxury-sliding img{transition:transform .85s cubic-bezier(.16,1,.3,1),filter .85s cubic-bezier(.16,1,.3,1),opacity .85s ease!important;filter:saturate(.98) brightness(.86)!important;opacity:.88!important;}
+@media(max-width:700px){#medias .media-arrow{width:70px!important;height:40px!important}#medias .media-arrow:before{width:26px!important}#medias .media-prev:before{right:12px!important}#medias .media-next:before{left:12px!important}#medias .media-prev span{left:12px!important}#medias .media-next span{right:12px!important}}
+</style>
 </head><body><header class="topbar"><div class="brand"><b>LR</b> LUXURY RP</div><nav class="nav"><a href="#ville">La ville</a><a href="#experiences">Expériences</a><a href="#database">Sociétés</a><a href="#action">Action</a><a href="#illegal">Illégal</a><a href="#panel">Panel</a><a href="#medias">Médias</a><a href="#faq">FAQ</a></nav></header><main><section id="accueil" class="hero"><div class="hero-content"><div class="eyebrow">Serveur FiveM français premium</div><h1>La vie que tu<br>choisis.</h1><p>Une ville RP ambitieuse, cinématique et exigeante : business, véhicules, mappings, événements, braquages, panel de contrôle et communauté Discord.</p><div class="btns"><a class="btn" href="#ville">Découvrir la ville</a><a class="btn alt" href="https://discord.gg/">Rejoindre la communauté</a></div></div><div class="scroll">DÉFILER</div></section>
 <section id="ville" class="section"><div class="split"><div class="panel"><div class="eyebrow">Chapitre 01 — La ville</div><h3>Un univers premium, conçu pour l’immersion.</h3><p>Luxury RP met en scène une ville élégante, vivante et contrastée : lieux iconiques, routes de nuit, entreprises, zones d’action et décors pensés pour créer des histoires mémorables.</p></div><img class="wide-img" src="assets/img/ville/ville_skyline_sunset_01.webp" alt="Ville Luxury RP"></div></section>
 <section id="experiences" class="section"><div class="section-title"><div class="eyebrow">Chapitre 02 — Expériences</div><h2>Des lieux qui donnent envie de jouer.</h2><p>Chaque carte ouvre une page dédiée à la société avec visuels, description et accès Discord.</p></div><div class="cards"><a class="card" href="jobs/paradise-mechanic.html"><img src="assets/img/experiences/experience_paradise_mechanic_03.webp" alt="Paradise Mechanic"><div><small>Mécano & rooftop</small><h3>Paradise Mechanic</h3><p>Atelier custom, culture automobile, rassemblements, runs et soirées au coucher de soleil.</p></div></a>
@@ -233,12 +302,31 @@
     total.textContent = pad(imgs.length);
   }
   function step(){ return track ? Math.max(360, track.clientWidth * .86) : 0; }
+  function easeOutExpo(t){ return t === 1 ? 1 : 1 - Math.pow(2, -10 * t); }
+  function animateScrollTo(targetLeft, duration = 1150){
+    if(!track) return;
+    const start = track.scrollLeft;
+    const max = track.scrollWidth - track.clientWidth;
+    const end = Math.max(0, Math.min(max, targetLeft));
+    const delta = end - start;
+    const t0 = performance.now();
+    track.classList.add('luxury-sliding');
+    cancelAnimationFrame(track._luxRaf);
+    function frame(now){
+      const t = Math.min(1, (now - t0) / duration);
+      track.scrollLeft = start + delta * easeOutExpo(t);
+      update();
+      if(t < 1){
+        track._luxRaf = requestAnimationFrame(frame);
+      }else{
+        setTimeout(() => track.classList.remove('luxury-sliding'), 180);
+      }
+    }
+    track._luxRaf = requestAnimationFrame(frame);
+  }
   function slideBy(amount){
     if(!track) return;
-    track.classList.add('luxury-sliding');
-    track.scrollBy({left:amount, behavior:'smooth'});
-    clearTimeout(track._luxTimer);
-    track._luxTimer = setTimeout(() => track.classList.remove('luxury-sliding'), 650);
+    animateScrollTo(track.scrollLeft + amount, 1150);
   }
   prev?.addEventListener('click', e => { e.preventDefault(); slideBy(-step()); });
   next?.addEventListener('click', e => { e.preventDefault(); slideBy(step()); });
