@@ -29,7 +29,7 @@ Lien utilisé : https://discord.gg/7u3SUx9VGF
 La V4.5.4 reste la version stable précédente. Cette V5 est une nouvelle base visuelle et structurelle plus ambitieuse.
 
 
-## V5.0.2 — Map Zoom & Position Polish
+## V5.0.3 — Map & Media Interaction Polish
 
 - Intégration du nouveau hero Luxury RP V5 avec avion noir et skyline coucher de soleil.
 - Intégration de la nouvelle carte Los Santos / Cayo comme base visuelle du MDT.
@@ -39,3 +39,9 @@ La V4.5.4 reste la version stable précédente. Cette V5 est une nouvelle base v
 - Carte interactive plus grande sur l’accueil.
 - Points recalés sur la nouvelle carte Los Santos / Cayo.
 - Ajout du zoom + / -, reset et déplacement à la souris sur la page MDT.
+
+
+## V5.0.3 — Map & Media Interaction Polish
+- Blips MDT contrôlés au zoom pour garder une carte lisible.
+- Carte preview accueil nettoyée : pôle légal + Cayo uniquement, avec labels au hover/clic.
+- Galerie médias transformée en carousel horizontal avec flèches, barre de progression et lightbox plein écran.

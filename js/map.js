@@ -41,7 +41,7 @@
 })();
 
 
-// Luxury RP V5.0.2 — map pan & zoom controls
+// Luxury RP V5.0.3 — map pan, zoom & readable blips
 (function(){
   const canvas=document.querySelector('[data-pan-map]');
   if(!canvas) return;
@@ -57,7 +57,7 @@
   function normalize(){
     const b=bounds(); tx=clamp(tx,-b.x,b.x); ty=clamp(ty,-b.y,b.y);
   }
-  function apply(){ normalize(); viewport.style.transform=`translate(${tx}px, ${ty}px) scale(${scale})`; }
+  function apply(){ normalize(); const markerScale=Math.max(.42, Math.min(1, 1/scale)); viewport.style.setProperty('--marker-scale', markerScale.toFixed(3)); viewport.style.setProperty('--marker-hover-scale', Math.min(1.06, markerScale*1.12).toFixed(3)); viewport.style.transform=`translate(${tx}px, ${ty}px) scale(${scale})`; }
   function zoomTo(next, cx=0, cy=0){
     const old=scale; scale=clamp(next,1,3.2);
     const ratio=scale/old;

@@ -24,3 +24,11 @@
 @media(max-width:1450px){.map-canvas{min-height:780px}}
 @media(max-width:900px){.map-canvas{min-height:620px}.map-tools{left:22px;top:22px}.map-tools button{width:36px;height:36px}.cayo-inset{width:160px}}
 @media(max-width:560px){.map-canvas{min-height:520px}.map-marker b{display:none}.map-marker{padding:5px}.cayo-inset{width:140px}}
+
+
+/* =========================================================
+   LUXURY RP V5.0.3 — BLIPS LISIBLES AU ZOOM
+   Les blips gardent une taille contrôlée quand la carte est zoomée.
+   ========================================================= */
+.map-viewport .map-marker{transform:translate(-50%,-50%) scale(var(--marker-scale,1));transform-origin:center center}
+.map-viewport .map-marker:hover,.map-viewport .map-marker.active{transform:translate(-50%,-50%) scale(var(--marker-hover-scale,1.06))}

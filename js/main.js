@@ -78,3 +78,80 @@ window.addEventListener('load', () => {
   document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{const id=a.getAttribute('href');if(id.length>1){const t=document.querySelector(id);if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});}}});});
   document.querySelectorAll('[data-smart-return]').forEach(a=>{a.addEventListener('click',e=>{if(document.referrer && document.referrer.includes(location.origin)){e.preventDefault();history.back();}})});
 })();
+
+
+// Luxury RP V5.0.3 — home mini-map labels + media carousel viewer
+(function(){
+  document.querySelectorAll('.mini-marker[data-label]').forEach(marker=>{
+    marker.addEventListener('click',e=>{
+      e.stopPropagation();
+      document.querySelectorAll('.mini-marker.active').forEach(m=>{ if(m!==marker) m.classList.remove('active'); });
+      marker.classList.toggle('active');
+    });
+    marker.addEventListener('keydown',e=>{
+      if(e.key==='Enter' || e.key===' '){ e.preventDefault(); marker.click(); }
+    });
+  });
+  document.addEventListener('click',e=>{
+    if(!e.target.closest('.mini-marker')) document.querySelectorAll('.mini-marker.active').forEach(m=>m.classList.remove('active'));
+  });
+
+  const carousel=document.querySelector('[data-v5-media]');
+  if(!carousel) return;
+  const track=carousel.querySelector('[data-v5-media-track]');
+  const thumbs=[...carousel.querySelectorAll('.media-thumb')];
+  const prev=carousel.querySelector('[data-v5-media-prev]');
+  const next=carousel.querySelector('[data-v5-media-next]');
+  const progress=carousel.querySelector('[data-v5-media-progress]');
+  const count=document.getElementById('v5MediaCount');
+  const viewer=document.querySelector('[data-v5-media-viewer]');
+  const viewerImg=viewer?.querySelector('img');
+  const viewerCap=viewer?.querySelector('figcaption');
+  let activeIndex=0;
+  const pad=n=>String(n).padStart(2,'0');
+  function step(){return track ? Math.max(360, track.clientWidth*.82) : 0;}
+  function visibleIndex(){
+    if(!track || !thumbs.length) return 0;
+    const max=Math.max(1, track.scrollWidth-track.clientWidth);
+    return Math.min(thumbs.length-1, Math.max(0, Math.round((track.scrollLeft/max)*(thumbs.length-1))));
+  }
+  function update(){
+    const i=visibleIndex();
+    if(count) count.textContent=`${pad(i+1)} / ${pad(thumbs.length)}`;
+    if(progress) progress.style.width=`${((i+1)/thumbs.length)*100}%`;
+  }
+  function openViewer(index){
+    if(!viewer || !viewerImg || !thumbs.length) return;
+    activeIndex=(index+thumbs.length)%thumbs.length;
+    const img=thumbs[activeIndex].querySelector('img');
+    viewerImg.src=img.src;
+    viewerImg.alt=img.alt || 'Aperçu Luxury RP';
+    if(viewerCap) viewerCap.textContent=thumbs[activeIndex].dataset.title || img.alt || '';
+    viewer.classList.add('open');
+    viewer.setAttribute('aria-hidden','false');
+    document.body.classList.add('media-open');
+  }
+  function closeViewer(){
+    if(!viewer) return;
+    viewer.classList.remove('open');
+    viewer.setAttribute('aria-hidden','true');
+    document.body.classList.remove('media-open');
+  }
+  function moveViewer(delta){openViewer(activeIndex+delta);}
+  prev?.addEventListener('click',()=>track?.scrollBy({left:-step(),behavior:'smooth'}));
+  next?.addEventListener('click',()=>track?.scrollBy({left:step(),behavior:'smooth'}));
+  track?.addEventListener('scroll',()=>requestAnimationFrame(update));
+  window.addEventListener('resize',update);
+  thumbs.forEach((thumb,i)=>thumb.addEventListener('click',()=>openViewer(i)));
+  viewer?.querySelector('[data-v5-media-close]')?.addEventListener('click',closeViewer);
+  viewer?.querySelector('[data-v5-viewer-prev]')?.addEventListener('click',()=>moveViewer(-1));
+  viewer?.querySelector('[data-v5-viewer-next]')?.addEventListener('click',()=>moveViewer(1));
+  viewer?.addEventListener('click',e=>{ if(e.target===viewer) closeViewer(); });
+  document.addEventListener('keydown',e=>{
+    if(!viewer?.classList.contains('open')) return;
+    if(e.key==='Escape') closeViewer();
+    if(e.key==='ArrowLeft') moveViewer(-1);
+    if(e.key==='ArrowRight') moveViewer(1);
+  });
+  update();
+})();
