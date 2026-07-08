@@ -1,3 +1,5 @@
+# Luxury RP — V5.0.4 Legal Map Polish
+
 # Luxury RP — V5.0.0 City Command Center — Hero & Map Assets
 
 Nouvelle base officielle V5, construite comme un portail premium + hub de ville + MDT public.
@@ -29,7 +31,7 @@ Lien utilisé : https://discord.gg/7u3SUx9VGF
 La V4.5.4 reste la version stable précédente. Cette V5 est une nouvelle base visuelle et structurelle plus ambitieuse.
 
 
-## V5.0.3 — Map & Media Interaction Polish
+## V5.0.4 — Legal Map Polish
 
 - Intégration du nouveau hero Luxury RP V5 avec avion noir et skyline coucher de soleil.
 - Intégration de la nouvelle carte Los Santos / Cayo comme base visuelle du MDT.
@@ -41,7 +43,15 @@ La V4.5.4 reste la version stable précédente. Cette V5 est une nouvelle base v
 - Ajout du zoom + / -, reset et déplacement à la souris sur la page MDT.
 
 
-## V5.0.3 — Map & Media Interaction Polish
+## V5.0.4 — Legal Map Polish
 - Blips MDT contrôlés au zoom pour garder une carte lisible.
 - Carte preview accueil nettoyée : pôle légal + Cayo uniquement, avec labels au hover/clic.
 - Galerie médias transformée en carousel horizontal avec flèches, barre de progression et lightbox plein écran.
+
+
+## V5.0.4 — Legal Map Polish
+
+- Retrait des points gangs, mafias, bikers, cartels et organisations de la carte interactive publique.
+- Conservation uniquement des institutions, services publics, entreprises, événements et lieux clés visibles.
+- Cayo Perico reste présent comme lieu / île, sans affichage de données illégales.
+- Correction du filtre `Lieux clés` pour ne plus afficher toutes les catégories.

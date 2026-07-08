@@ -611,6 +611,24 @@ window.LUXURY_MAP_LOCATIONS = [
     "status": "Actif",
     "desc": "Club biker, hiérarchie, loyauté, route, business et culture moto."
   },
+
+  {
+    "id": "cayo-perico",
+    "name": "Cayo Perico",
+    "short": "CAYO PERICO",
+    "pole": "neutral",
+    "category": "lieux",
+    "catLabel": "Lieux clés",
+    "icon": "✦",
+    "x": 76,
+    "y": 84,
+    "image": "assets/img/ville/ville_cayo_bridge_01.webp",
+    "page": "map.html",
+    "district": "Île de Cayo",
+    "type": "Île / destination",
+    "status": "Accessible",
+    "desc": "Île distante, paysages tropicaux, zones d’exploration et points d’intérêt RP à découvrir."
+  },
   {
     "id": "cartel-cayo",
     "name": "Cartel Cayo",

@@ -29,7 +29,7 @@
     const q=(search?.value||'').toLowerCase().trim();
     markers.forEach(m=>{
       const loc=locations.find(l=>l.id===m.dataset.id); if(!loc) return;
-      const matchFilter=active==='all'||loc.category===active||(active==='lieux');
+      const matchFilter=active==='all'||loc.category===active;
       const matchText=!q||[loc.name,loc.short,loc.type,loc.district,loc.catLabel].join(' ').toLowerCase().includes(q);
       m.classList.toggle('hidden',!(matchFilter&&matchText));
     });

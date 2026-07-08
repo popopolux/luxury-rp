@@ -1,390 +1,103 @@
 {
-  "version": "V5.0.3",
-  "count": 96,
-  "images": [
-    {
-      "path": "assets/img/experiences/experience_agence_immo_01.webp",
-      "size_bytes": 283634
-    },
-    {
-      "path": "assets/img/experiences/experience_airport_01.webp",
-      "size_bytes": 219480
-    },
-    {
-      "path": "assets/img/experiences/experience_airport_02.webp",
-      "size_bytes": 226022
-    },
-    {
-      "path": "assets/img/experiences/experience_alamo_island_01.webp",
-      "size_bytes": 488332
-    },
-    {
-      "path": "assets/img/experiences/experience_ballas_records_01.webp",
-      "size_bytes": 221828
-    },
-    {
-      "path": "assets/img/experiences/experience_ballas_records_02.webp",
-      "size_bytes": 194132
-    },
-    {
-      "path": "assets/img/experiences/experience_ballas_records_03.webp",
-      "size_bytes": 146904
-    },
-    {
-      "path": "assets/img/experiences/experience_bcso_01.webp",
-      "size_bytes": 276596
-    },
-    {
-      "path": "assets/img/experiences/experience_bcso_02.webp",
-      "size_bytes": 299562
-    },
-    {
-      "path": "assets/img/experiences/experience_bennys_01.webp",
-      "size_bytes": 244194
-    },
-    {
-      "path": "assets/img/experiences/experience_bennys_02.webp",
-      "size_bytes": 211858
-    },
-    {
-      "path": "assets/img/experiences/experience_burgershot_01.webp",
-      "size_bytes": 320258
-    },
-    {
-      "path": "assets/img/experiences/experience_burgershot_02.webp",
-      "size_bytes": 307646
-    },
-    {
-      "path": "assets/img/experiences/experience_casino_01.webp",
-      "size_bytes": 211176
-    },
-    {
-      "path": "assets/img/experiences/experience_casino_02.webp",
-      "size_bytes": 118346
-    },
-    {
-      "path": "assets/img/experiences/experience_casino_03.webp",
-      "size_bytes": 327748
-    },
-    {
-      "path": "assets/img/experiences/experience_casino_04.webp",
-      "size_bytes": 200422
-    },
-    {
-      "path": "assets/img/experiences/experience_club77_01.webp",
-      "size_bytes": 242238
-    },
-    {
-      "path": "assets/img/experiences/experience_club77_02.webp",
-      "size_bytes": 242200
-    },
-    {
-      "path": "assets/img/experiences/experience_club77_03.webp",
-      "size_bytes": 233278
-    },
-    {
-      "path": "assets/img/experiences/experience_concessionaire_bateau_01.webp",
-      "size_bytes": 275840
-    },
-    {
-      "path": "assets/img/experiences/experience_concessionaire_voiture_01.webp",
-      "size_bytes": 270774
-    },
-    {
-      "path": "assets/img/experiences/experience_ems_nord_01.webp",
-      "size_bytes": 271916
-    },
-    {
-      "path": "assets/img/experiences/experience_ems_sud_01.webp",
-      "size_bytes": 173420
-    },
-    {
-      "path": "assets/img/experiences/experience_ems_sud_02.webp",
-      "size_bytes": 259642
-    },
-    {
-      "path": "assets/img/experiences/experience_fightclub_01.webp",
-      "size_bytes": 271394
-    },
-    {
-      "path": "assets/img/experiences/experience_fightclub_02.webp",
-      "size_bytes": 228828
-    },
-    {
-      "path": "assets/img/experiences/experience_fightclub_03.webp",
-      "size_bytes": 149036
-    },
-    {
-      "path": "assets/img/experiences/experience_gouvernement_01.webp",
-      "size_bytes": 413760
-    },
-    {
-      "path": "assets/img/experiences/experience_gouvernement_02.webp",
-      "size_bytes": 248096
-    },
-    {
-      "path": "assets/img/experiences/experience_gouvernement_03.webp",
-      "size_bytes": 276842
-    },
-    {
-      "path": "assets/img/experiences/experience_grand_senora_raceway_01.webp",
-      "size_bytes": 315034
-    },
-    {
-      "path": "assets/img/experiences/experience_grand_senora_raceway_02.webp",
-      "size_bytes": 341552
-    },
-    {
-      "path": "assets/img/experiences/experience_ls_custom_01.webp",
-      "size_bytes": 315018
-    },
-    {
-      "path": "assets/img/experiences/experience_ls_custom_02.webp",
-      "size_bytes": 291218
-    },
-    {
-      "path": "assets/img/experiences/experience_ls_custom_03.webp",
-      "size_bytes": 333518
-    },
-    {
-      "path": "assets/img/experiences/experience_marina_01.webp",
-      "size_bytes": 298638
-    },
-    {
-      "path": "assets/img/experiences/experience_marina_02.webp",
-      "size_bytes": 437892
-    },
-    {
-      "path": "assets/img/experiences/experience_paradise_mechanic_01.webp",
-      "size_bytes": 292102
-    },
-    {
-      "path": "assets/img/experiences/experience_paradise_mechanic_02.webp",
-      "size_bytes": 291794
-    },
-    {
-      "path": "assets/img/experiences/experience_paradise_mechanic_03.webp",
-      "size_bytes": 354294
-    },
-    {
-      "path": "assets/img/experiences/experience_pearls_01.webp",
-      "size_bytes": 228414
-    },
-    {
-      "path": "assets/img/experiences/experience_pearls_02.webp",
-      "size_bytes": 276804
-    },
-    {
-      "path": "assets/img/experiences/experience_pearls_03.webp",
-      "size_bytes": 388286
-    },
-    {
-      "path": "assets/img/experiences/experience_pearls_04.webp",
-      "size_bytes": 389344
-    },
-    {
-      "path": "assets/img/experiences/experience_unicorn_01.webp",
-      "size_bytes": 336930
-    },
-    {
-      "path": "assets/img/experiences/experience_unicorn_02.webp",
-      "size_bytes": 184902
-    },
-    {
-      "path": "assets/img/experiences/experience_unicorn_03.webp",
-      "size_bytes": 143462
-    },
-    {
-      "path": "assets/img/experiences/experience_unicorn_04.webp",
-      "size_bytes": 147586
-    },
-    {
-      "path": "assets/img/experiences/experience_wiwang_tower_01.webp",
-      "size_bytes": 218278
-    },
-    {
-      "path": "assets/img/experiences/experience_wiwang_tower_02.webp",
-      "size_bytes": 149564
-    },
-    {
-      "path": "assets/img/experiences/experience_wiwang_tower_03.webp",
-      "size_bytes": 153140
-    },
-    {
-      "path": "assets/img/hero/hero-avion-v3-luxury-rp.webp",
-      "size_bytes": 306944
-    },
-    {
-      "path": "assets/img/hero/hero-v5-city-command-center.webp",
-      "size_bytes": 306944
-    },
-    {
-      "path": "assets/img/illegal/illegal_arme_02.webp",
-      "size_bytes": 195820
-    },
-    {
-      "path": "assets/img/illegal/illegal_arme_03.webp",
-      "size_bytes": 159524
-    },
-    {
-      "path": "assets/img/illegal/illegal_braquage_bank_01.webp",
-      "size_bytes": 201924
-    },
-    {
-      "path": "assets/img/illegal/illegal_braquage_fleeca_01.webp",
-      "size_bytes": 292468
-    },
-    {
-      "path": "assets/img/illegal/illegal_braquage_superette_01.webp",
-      "size_bytes": 431724
-    },
-    {
-      "path": "assets/img/illegal/illegal_cartel_cayo_01.webp",
-      "size_bytes": 298020
-    },
-    {
-      "path": "assets/img/illegal/illegal_cartel_cayo_02.webp",
-      "size_bytes": 283700
-    },
-    {
-      "path": "assets/img/illegal/illegal_cayo_bridge_01.webp",
-      "size_bytes": 271564
-    },
-    {
-      "path": "assets/img/illegal/illegal_cayo_villa_exterieur_01.webp",
-      "size_bytes": 349384
-    },
-    {
-      "path": "assets/img/illegal/illegal_cayo_villa_interieur_01.webp",
-      "size_bytes": 277014
-    },
-    {
-      "path": "assets/img/illegal/illegal_gang_ballas_new_01.webp",
-      "size_bytes": 269690
-    },
-    {
-      "path": "assets/img/illegal/illegal_gang_bloods_01.webp",
-      "size_bytes": 469854
-    },
-    {
-      "path": "assets/img/illegal/illegal_gang_bloods_new_01.webp",
-      "size_bytes": 180686
-    },
-    {
-      "path": "assets/img/illegal/illegal_gang_families_01.webp",
-      "size_bytes": 513622
-    },
-    {
-      "path": "assets/img/illegal/illegal_gang_families_new_01.webp",
-      "size_bytes": 247036
-    },
-    {
-      "path": "assets/img/illegal/illegal_gang_families_new_02.webp",
-      "size_bytes": 191188
-    },
-    {
-      "path": "assets/img/illegal/illegal_gang_vagos_01.webp",
-      "size_bytes": 541318
-    },
-    {
-      "path": "assets/img/illegal/illegal_gang_vagos_new_01.webp",
-      "size_bytes": 242430
-    },
-    {
-      "path": "assets/img/illegal/illegal_go_fast_01.webp",
-      "size_bytes": 189682
-    },
-    {
-      "path": "assets/img/illegal/illegal_go_fast_02.webp",
-      "size_bytes": 360754
-    },
-    {
-      "path": "assets/img/illegal/illegal_go_fast_03.webp",
-      "size_bytes": 299002
-    },
-    {
-      "path": "assets/img/illegal/illegal_laboratoire_01.webp",
-      "size_bytes": 154528
-    },
-    {
-      "path": "assets/img/illegal/illegal_laboratoire_02.webp",
-      "size_bytes": 250920
-    },
-    {
-      "path": "assets/img/illegal/illegal_laboratoire_03.webp",
-      "size_bytes": 147932
-    },
-    {
-      "path": "assets/img/illegal/illegal_recolte_01.webp",
-      "size_bytes": 397416
-    },
-    {
-      "path": "assets/img/illegal/illegal_recolte_weed_01.webp",
-      "size_bytes": 306732
-    },
-    {
-      "path": "assets/img/illegal/illegal_traffic_01.webp",
-      "size_bytes": 164480
-    },
-    {
-      "path": "assets/img/map/map-los-santos-cayo-v1.webp",
-      "size_bytes": 441196
-    },
-    {
-      "path": "assets/img/map/map-los-santos-command.webp",
-      "size_bytes": 441196
-    },
-    {
-      "path": "assets/img/map/map-preview-command.webp",
-      "size_bytes": 225712
-    },
-    {
-      "path": "assets/img/ville/ville_downtown_01.webp",
-      "size_bytes": 286638
-    },
-    {
-      "path": "assets/img/ville/ville_downtown_02.webp",
-      "size_bytes": 281474
-    },
-    {
-      "path": "assets/img/ville/ville_downtown_03.webp",
-      "size_bytes": 319582
-    },
-    {
-      "path": "assets/img/ville/ville_los_santos_river_01.webp",
-      "size_bytes": 381898
-    },
-    {
-      "path": "assets/img/ville/ville_los_santos_river_02.webp",
-      "size_bytes": 354040
-    },
-    {
-      "path": "assets/img/ville/ville_los_santos_river_03.webp",
-      "size_bytes": 374744
-    },
-    {
-      "path": "assets/img/ville/ville_porsche_01.webp",
-      "size_bytes": 271972
-    },
-    {
-      "path": "assets/img/ville/ville_port_01.webp",
-      "size_bytes": 286376
-    },
-    {
-      "path": "assets/img/ville/ville_skyline_night_01.webp",
-      "size_bytes": 261674
-    },
-    {
-      "path": "assets/img/ville/ville_skyline_sunset_01.webp",
-      "size_bytes": 272848
-    },
-    {
-      "path": "assets/img/ville/ville_vespucci_beach_01.webp",
-      "size_bytes": 328926
-    },
-    {
-      "path": "assets/img/ville/ville_vinewood_hills_01.webp",
-      "size_bytes": 320674
-    }
+  "version": "V5.0.4",
+  "count": 97,
+  "files": [
+    "assets/MANIFEST_IMAGES.txt",
+    "assets/img/experiences/experience_agence_immo_01.webp",
+    "assets/img/experiences/experience_airport_01.webp",
+    "assets/img/experiences/experience_airport_02.webp",
+    "assets/img/experiences/experience_alamo_island_01.webp",
+    "assets/img/experiences/experience_ballas_records_01.webp",
+    "assets/img/experiences/experience_ballas_records_02.webp",
+    "assets/img/experiences/experience_ballas_records_03.webp",
+    "assets/img/experiences/experience_bcso_01.webp",
+    "assets/img/experiences/experience_bcso_02.webp",
+    "assets/img/experiences/experience_bennys_01.webp",
+    "assets/img/experiences/experience_bennys_02.webp",
+    "assets/img/experiences/experience_burgershot_01.webp",
+    "assets/img/experiences/experience_burgershot_02.webp",
+    "assets/img/experiences/experience_casino_01.webp",
+    "assets/img/experiences/experience_casino_02.webp",
+    "assets/img/experiences/experience_casino_03.webp",
+    "assets/img/experiences/experience_casino_04.webp",
+    "assets/img/experiences/experience_club77_01.webp",
+    "assets/img/experiences/experience_club77_02.webp",
+    "assets/img/experiences/experience_club77_03.webp",
+    "assets/img/experiences/experience_concessionaire_bateau_01.webp",
+    "assets/img/experiences/experience_concessionaire_voiture_01.webp",
+    "assets/img/experiences/experience_ems_nord_01.webp",
+    "assets/img/experiences/experience_ems_sud_01.webp",
+    "assets/img/experiences/experience_ems_sud_02.webp",
+    "assets/img/experiences/experience_fightclub_01.webp",
+    "assets/img/experiences/experience_fightclub_02.webp",
+    "assets/img/experiences/experience_fightclub_03.webp",
+    "assets/img/experiences/experience_gouvernement_01.webp",
+    "assets/img/experiences/experience_gouvernement_02.webp",
+    "assets/img/experiences/experience_gouvernement_03.webp",
+    "assets/img/experiences/experience_grand_senora_raceway_01.webp",
+    "assets/img/experiences/experience_grand_senora_raceway_02.webp",
+    "assets/img/experiences/experience_ls_custom_01.webp",
+    "assets/img/experiences/experience_ls_custom_02.webp",
+    "assets/img/experiences/experience_ls_custom_03.webp",
+    "assets/img/experiences/experience_marina_01.webp",
+    "assets/img/experiences/experience_marina_02.webp",
+    "assets/img/experiences/experience_paradise_mechanic_01.webp",
+    "assets/img/experiences/experience_paradise_mechanic_02.webp",
+    "assets/img/experiences/experience_paradise_mechanic_03.webp",
+    "assets/img/experiences/experience_pearls_01.webp",
+    "assets/img/experiences/experience_pearls_02.webp",
+    "assets/img/experiences/experience_pearls_03.webp",
+    "assets/img/experiences/experience_pearls_04.webp",
+    "assets/img/experiences/experience_unicorn_01.webp",
+    "assets/img/experiences/experience_unicorn_02.webp",
+    "assets/img/experiences/experience_unicorn_03.webp",
+    "assets/img/experiences/experience_unicorn_04.webp",
+    "assets/img/experiences/experience_wiwang_tower_01.webp",
+    "assets/img/experiences/experience_wiwang_tower_02.webp",
+    "assets/img/experiences/experience_wiwang_tower_03.webp",
+    "assets/img/hero/hero-avion-v3-luxury-rp.webp",
+    "assets/img/hero/hero-v5-city-command-center.webp",
+    "assets/img/illegal/illegal_arme_02.webp",
+    "assets/img/illegal/illegal_arme_03.webp",
+    "assets/img/illegal/illegal_braquage_bank_01.webp",
+    "assets/img/illegal/illegal_braquage_fleeca_01.webp",
+    "assets/img/illegal/illegal_braquage_superette_01.webp",
+    "assets/img/illegal/illegal_cartel_cayo_01.webp",
+    "assets/img/illegal/illegal_cartel_cayo_02.webp",
+    "assets/img/illegal/illegal_cayo_bridge_01.webp",
+    "assets/img/illegal/illegal_cayo_villa_exterieur_01.webp",
+    "assets/img/illegal/illegal_cayo_villa_interieur_01.webp",
+    "assets/img/illegal/illegal_gang_ballas_new_01.webp",
+    "assets/img/illegal/illegal_gang_bloods_01.webp",
+    "assets/img/illegal/illegal_gang_bloods_new_01.webp",
+    "assets/img/illegal/illegal_gang_families_01.webp",
+    "assets/img/illegal/illegal_gang_families_new_01.webp",
+    "assets/img/illegal/illegal_gang_families_new_02.webp",
+    "assets/img/illegal/illegal_gang_vagos_01.webp",
+    "assets/img/illegal/illegal_gang_vagos_new_01.webp",
+    "assets/img/illegal/illegal_go_fast_01.webp",
+    "assets/img/illegal/illegal_go_fast_02.webp",
+    "assets/img/illegal/illegal_go_fast_03.webp",
+    "assets/img/illegal/illegal_laboratoire_01.webp",
+    "assets/img/illegal/illegal_laboratoire_02.webp",
+    "assets/img/illegal/illegal_laboratoire_03.webp",
+    "assets/img/illegal/illegal_recolte_01.webp",
+    "assets/img/illegal/illegal_recolte_weed_01.webp",
+    "assets/img/illegal/illegal_traffic_01.webp",
+    "assets/img/map/map-los-santos-cayo-v1.webp",
+    "assets/img/map/map-los-santos-command.webp",
+    "assets/img/map/map-preview-command.webp",
+    "assets/img/ville/ville_downtown_01.webp",
+    "assets/img/ville/ville_downtown_02.webp",
+    "assets/img/ville/ville_downtown_03.webp",
+    "assets/img/ville/ville_los_santos_river_01.webp",
+    "assets/img/ville/ville_los_santos_river_02.webp",
+    "assets/img/ville/ville_los_santos_river_03.webp",
+    "assets/img/ville/ville_porsche_01.webp",
+    "assets/img/ville/ville_port_01.webp",
+    "assets/img/ville/ville_skyline_night_01.webp",
+    "assets/img/ville/ville_skyline_sunset_01.webp",
+    "assets/img/ville/ville_vespucci_beach_01.webp",
+    "assets/img/ville/ville_vinewood_hills_01.webp"
   ]
 }
