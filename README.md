@@ -29,8 +29,13 @@ Lien utilisé : https://discord.gg/7u3SUx9VGF
 La V4.5.4 reste la version stable précédente. Cette V5 est une nouvelle base visuelle et structurelle plus ambitieuse.
 
 
-## V5.0.1 — Hero & Map Assets
+## V5.0.2 — Map Zoom & Position Polish
 
 - Intégration du nouveau hero Luxury RP V5 avec avion noir et skyline coucher de soleil.
 - Intégration de la nouvelle carte Los Santos / Cayo comme base visuelle du MDT.
 - Conservation de la structure V5.0.0 : homepage, map.html, data/map-locations.js, pages sociétés, légal, support et footer.
+
+
+- Carte interactive plus grande sur l’accueil.
+- Points recalés sur la nouvelle carte Los Santos / Cayo.
+- Ajout du zoom + / -, reset et déplacement à la souris sur la page MDT.

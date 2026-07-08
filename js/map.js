@@ -39,3 +39,63 @@
   if(search) search.addEventListener('input',apply);
   if(locations.length) select('luxury-motors');
 })();
+
+
+// Luxury RP V5.0.2 — map pan & zoom controls
+(function(){
+  const canvas=document.querySelector('[data-pan-map]');
+  if(!canvas) return;
+  const viewport=canvas.querySelector('.map-viewport');
+  if(!viewport) return;
+  const tools=[...document.querySelectorAll('.map-tools button')];
+  let scale=1, tx=0, ty=0, isDown=false, startX=0, startY=0, startTx=0, startTy=0, moved=false;
+  const clamp=(v,min,max)=>Math.min(max,Math.max(min,v));
+  function bounds(){
+    const r=canvas.getBoundingClientRect();
+    return {x:Math.max(0,(scale-1)*r.width/2), y:Math.max(0,(scale-1)*r.height/2)};
+  }
+  function normalize(){
+    const b=bounds(); tx=clamp(tx,-b.x,b.x); ty=clamp(ty,-b.y,b.y);
+  }
+  function apply(){ normalize(); viewport.style.transform=`translate(${tx}px, ${ty}px) scale(${scale})`; }
+  function zoomTo(next, cx=0, cy=0){
+    const old=scale; scale=clamp(next,1,3.2);
+    const ratio=scale/old;
+    tx=cx-(cx-tx)*ratio; ty=cy-(cy-ty)*ratio;
+    apply();
+  }
+  function reset(){ scale=1; tx=0; ty=0; apply(); }
+  tools.forEach((btn,i)=>{
+    const action=btn.dataset.mapTool || ['zoom-in','zoom-out','reset','fit','center'][i];
+    btn.addEventListener('click',()=>{
+      if(action==='zoom-in') zoomTo(scale+.28);
+      if(action==='zoom-out') zoomTo(scale-.28);
+      if(action==='reset'||action==='fit'||action==='center') reset();
+    });
+  });
+  canvas.addEventListener('wheel',e=>{
+    e.preventDefault();
+    const r=canvas.getBoundingClientRect();
+    const cx=e.clientX-r.left-r.width/2, cy=e.clientY-r.top-r.height/2;
+    zoomTo(scale + (e.deltaY<0 ? .18 : -.18), cx, cy);
+  },{passive:false});
+  canvas.addEventListener('pointerdown',e=>{
+    if(e.target.closest('.map-marker,.cayo-inset,.map-tools')) return;
+    isDown=true; moved=false; canvas.classList.add('dragging'); canvas.setPointerCapture(e.pointerId);
+    startX=e.clientX; startY=e.clientY; startTx=tx; startTy=ty;
+  });
+  canvas.addEventListener('pointermove',e=>{
+    if(!isDown) return;
+    const dx=e.clientX-startX, dy=e.clientY-startY;
+    if(Math.abs(dx)+Math.abs(dy)>3) moved=true;
+    tx=startTx+dx; ty=startTy+dy; apply();
+  });
+  function up(e){
+    if(!isDown) return;
+    isDown=false; canvas.classList.remove('dragging');
+    try{canvas.releasePointerCapture(e.pointerId)}catch(_e){}
+  }
+  canvas.addEventListener('pointerup',up); canvas.addEventListener('pointercancel',up); canvas.addEventListener('pointerleave',up);
+  window.addEventListener('resize',apply);
+  apply();
+})();
