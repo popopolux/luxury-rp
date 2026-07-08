@@ -1,40 +1,36 @@
-# Luxury RP — V4.5.4 Final Premium Polish
+# Luxury RP — V5.0.0 City Command Center — Hero & Map Assets
 
-Version stable basée sur `luxury-rp-v4-complet-propre`, enrichie sans casser l'identité graphique validée.
+Nouvelle base officielle V5, construite comme un portail premium + hub de ville + MDT public.
 
-## Contenu principal
+## Contenu
 
-- Hero V3 conservé avec avion Luxury RP.
-- Section Expériences recentrée sur la ville, les paysages, Cayo et l'ambiance générale.
-- Section écosystème restructurée : Pôle légal / Pôle illégal.
-- Catégories officielles : Institutions & services publics, Concessionnaires & garages, Restauration & art de vivre, Divertissements & événements, Gangs, Mafias & Bikers, Cartels & Organisations.
-- 37 fiches dédiées dans `/jobs/`.
-- Galeries de fiches adaptées aux visuels disponibles.
-- Galerie médias compacte avec carrousel.
-- Mentions légales, confidentialité, cookies et support mis à jour.
-- Footer : Copyright © LuxuryRP 2026.
+- `index.html` : nouvelle homepage V5 premium.
+- `map.html` : page MDT / carte interactive de Los Santos.
+- `societes.html` : écosystème complet, pôle légal et pôle illégal.
+- `jobs/` : fiches sociétés conservées et reliées.
+- `data/map-locations.js` : base de données simple des points de carte.
+- `css/style.css` : style global + fondation V5.
+- `css/map.css` : interface carte interactive.
+- `js/main.js` : interactions communes.
+- `js/map.js` : filtres, recherche, markers et panneau latéral.
 
-## Arborescence
+## Versioning
 
-```txt
-index.html
-privacy.html
-cookies.html
-terms.html
-support.html
-css/style.css
-js/main.js
-jobs/*.html
-assets/img/**
-assets/MANIFEST_IMAGES.txt
-```
+- V5.0.0 : base City Command Center — Hero & Map Assets + carte interactive intégrée.
+- V5.0.1 à V5.0.4 : calage, QA, responsive, micro-polish.
+- V5.1.0 : enrichissement progressif du contenu et des visuels.
 
-## Chiffres
+## Discord
 
-- Entités officielles : 37
-- Fichiers assets : 93
-- Fichiers totaux du dossier : 138
+Lien utilisé : https://discord.gg/7u3SUx9VGF
 
-## Upload GitHub
+## Notes
 
-Dézipper le dossier, glisser tout le contenu à la racine du dépôt GitHub puis `Commit changes`.
+La V4.5.4 reste la version stable précédente. Cette V5 est une nouvelle base visuelle et structurelle plus ambitieuse.
+
+
+## V5.0.1 — Hero & Map Assets
+
+- Intégration du nouveau hero Luxury RP V5 avec avion noir et skyline coucher de soleil.
+- Intégration de la nouvelle carte Los Santos / Cayo comme base visuelle du MDT.
+- Conservation de la structure V5.0.0 : homepage, map.html, data/map-locations.js, pages sociétés, légal, support et footer.

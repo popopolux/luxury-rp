@@ -67,3 +67,14 @@ window.addEventListener('load', () => {
     setTimeout(() => window.scrollTo({ top: y, behavior: 'smooth' }), 80);
   }
 });
+
+
+// Luxury RP V5.0.0 — shared interactions
+(function(){
+  const menuBtn=document.querySelector('[data-menu-toggle]');
+  const nav=document.querySelector('.v5-nav');
+  if(menuBtn && nav){menuBtn.addEventListener('click',()=>nav.classList.toggle('open'));}
+  document.querySelectorAll('[data-scroll-top]').forEach(btn=>btn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'})));
+  document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{const id=a.getAttribute('href');if(id.length>1){const t=document.querySelector(id);if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});}}});});
+  document.querySelectorAll('[data-smart-return]').forEach(a=>{a.addEventListener('click',e=>{if(document.referrer && document.referrer.includes(location.origin)){e.preventDefault();history.back();}})});
+})();
