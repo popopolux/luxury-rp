@@ -1,0 +1,11 @@
+{
+  "lazy_loading": "enabled on non-critical images",
+  "critical_preload": "hero image preloaded on main pages",
+  "duplicates_removed": [
+    "assets/img/hero/hero-avion-v3-luxury-rp.webp",
+    "assets/img/map/map-los-santos-cayo-v1.webp"
+  ],
+  "format_policy": "WebP assets retained for GitHub Pages performance",
+  "total_images": 94,
+  "total_mb": 24.94
+}
