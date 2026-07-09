@@ -472,3 +472,89 @@ body.theme-restaurant .premium-job:before,body.theme-resort .premium-job:before,
   .entity-atmosphere-bar span{padding:11px 12px;font-size:10px;}
   body.entity-page.theme-ready:after{opacity:.30;}
 }
+
+/* =========================================================
+   V5.1.6 — Home Section Redesign
+   Recrutements + portail officiel plus graphiques et immersifs.
+   ========================================================= */
+.recruitment-showcase,.official-access-showcase{padding-top:86px;padding-bottom:92px}
+.showcase-shell{position:relative;max-width:1480px;margin:0 auto;border:1px solid rgba(245,200,91,.18);border-radius:28px;overflow:hidden;isolation:isolate;padding:58px 48px 44px;box-shadow:0 32px 100px rgba(0,0,0,.42),inset 0 0 0 1px rgba(255,255,255,.02)}
+.showcase-shell .showcase-backdrop{position:absolute;inset:0;z-index:-2;background-size:cover;background-position:center;transform:scale(1.02)}
+.showcase-shell:before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none}
+.recruitment-shell .showcase-backdrop{background-image:url('../assets/img/ville/ville_skyline_night_01.webp')}
+.recruitment-shell:before{background:linear-gradient(180deg,rgba(7,6,5,.58) 0%,rgba(7,6,5,.84) 28%,rgba(7,6,5,.95) 100%),radial-gradient(circle at 50% 0%,rgba(245,200,91,.14),transparent 45%)}
+.portal-shell .showcase-backdrop{background-image:url('../assets/img/map/map-los-santos-command.webp');filter:saturate(.75) brightness(.72)}
+.portal-shell:before{background:linear-gradient(180deg,rgba(6,5,4,.90) 0%,rgba(6,5,4,.95) 100%),radial-gradient(circle at 50% 0%,rgba(245,200,91,.12),transparent 48%)}
+.showcase-copy{max-width:920px;margin:0 auto 34px;text-align:center}
+.showcase-copy h2{margin-bottom:14px}
+.showcase-copy p{max-width:760px;margin:0 auto;color:#e0cfb1}
+.recruitment-grid-showcase,.official-access-grid-showcase{gap:20px}
+.showcase-card{min-height:350px;background:linear-gradient(180deg,rgba(3,3,2,.58),rgba(3,3,2,.76));backdrop-filter:blur(7px);border-color:rgba(245,200,91,.32);padding-top:30px}
+.showcase-card:before{background:radial-gradient(circle at 24% 0%,rgba(245,200,91,.12),transparent 40%),linear-gradient(180deg,rgba(255,255,255,.02),transparent)}
+.recruit-emblem{width:84px;height:84px;border-radius:22px;display:flex;align-items:center;justify-content:center;margin-bottom:24px;font-family:Georgia,serif;font-weight:900;font-size:26px;letter-spacing:.04em;border:1px solid rgba(245,200,91,.34);background:linear-gradient(145deg,rgba(12,10,8,.9),rgba(26,21,12,.68));box-shadow:inset 0 0 28px rgba(245,200,91,.07),0 14px 34px rgba(0,0,0,.30);color:#f6ddb0}
+.recruit-emblem.badge{font-size:19px}
+.recruit-emblem.medical{color:#8fd2ff;border-color:rgba(120,194,255,.30);box-shadow:inset 0 0 32px rgba(76,155,255,.10),0 14px 34px rgba(0,0,0,.30)}
+.recruit-emblem.media{font-size:24px;color:#fff5dc;border-color:rgba(245,200,91,.30)}
+.recruit-emblem.premium{font-size:30px}
+.institution-card .recruit-emblem{background:linear-gradient(145deg,rgba(10,9,8,.92),rgba(40,28,12,.68))}
+.ems-card .recruit-emblem{background:linear-gradient(145deg,rgba(7,10,14,.92),rgba(11,38,62,.65))}
+.weazel-card .recruit-emblem{background:linear-gradient(145deg,rgba(15,10,10,.92),rgba(66,16,16,.60))}
+.motors-card .recruit-emblem{background:linear-gradient(145deg,rgba(12,10,8,.92),rgba(39,29,13,.68))}
+.showcase-actions{margin-top:28px}
+.portal-card{position:relative;overflow:hidden;padding:30px 28px 28px!important;background:linear-gradient(180deg,rgba(8,8,7,.66),rgba(8,8,7,.84))!important;backdrop-filter:blur(6px);border-color:rgba(245,200,91,.30)!important;box-shadow:0 24px 70px rgba(0,0,0,.30)}
+.portal-card:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 18% 0%,rgba(245,200,91,.12),transparent 38%);pointer-events:none}
+.portal-card>*{position:relative}
+.portal-icon{width:82px;height:82px;border-radius:999px;display:flex;align-items:center;justify-content:center;margin-bottom:24px;border:1px solid rgba(245,200,91,.34);background:linear-gradient(145deg,rgba(7,6,5,.92),rgba(29,23,13,.72));box-shadow:inset 0 0 26px rgba(245,200,91,.09),0 14px 34px rgba(0,0,0,.28);font-size:34px;color:#f5c85b}
+.portal-card span{display:block;color:#f5c85b;font-size:12px;letter-spacing:.16em;margin-bottom:18px;border-bottom:none!important}
+.portal-card h3{font-size:26px!important;margin-bottom:14px!important}
+.portal-card p{min-height:104px}
+.portal-card b{display:inline-block;margin-top:6px}
+.portal-card:hover{transform:translateY(-6px);border-color:rgba(245,200,91,.62)!important;box-shadow:0 32px 86px rgba(0,0,0,.40),0 0 24px rgba(245,200,91,.08)}
+@media(max-width:1500px){.showcase-shell{padding:52px 34px 40px}}
+@media(max-width:980px){.recruitment-showcase,.official-access-showcase{padding-top:68px;padding-bottom:72px}.showcase-shell{padding:38px 22px 26px;border-radius:22px}.showcase-copy{text-align:left;margin-bottom:26px}.showcase-copy p{margin:0}.recruit-emblem{width:72px;height:72px;border-radius:18px;margin-bottom:20px}.portal-icon{width:72px;height:72px;font-size:28px}.showcase-card{min-height:unset}.portal-card p{min-height:unset}}
+
+/* =========================================================
+   V5.1.7 — Luxury polish on home showcase sections
+   ========================================================= */
+.showcase-shell{background:linear-gradient(180deg,rgba(10,8,6,.86),rgba(7,6,5,.94));border-color:rgba(245,200,91,.22);box-shadow:0 34px 120px rgba(0,0,0,.48),inset 0 0 0 1px rgba(255,233,179,.03),inset 0 32px 80px rgba(245,200,91,.03)}
+.showcase-shell:after{content:"";position:absolute;left:42px;right:42px;bottom:0;height:1px;background:linear-gradient(90deg,transparent,rgba(245,200,91,.34),transparent);pointer-events:none}
+.showcase-copy .overline{display:inline-flex;align-items:center;gap:16px;position:relative}
+.showcase-copy .overline:before,.showcase-copy .overline:after{content:"";width:64px;height:1px;background:linear-gradient(90deg,transparent,rgba(245,200,91,.45));display:block}.showcase-copy .overline:after{background:linear-gradient(90deg,rgba(245,200,91,.45),transparent)}
+.showcase-copy h2{text-shadow:0 4px 30px rgba(0,0,0,.34)}
+.showcase-copy p{font-size:17px;line-height:1.75}
+.showcase-tags{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin:0 auto 34px}
+.showcase-tags span{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;border-radius:999px;border:1px solid rgba(245,200,91,.22);background:linear-gradient(180deg,rgba(255,255,255,.025),rgba(245,200,91,.04));box-shadow:inset 0 0 16px rgba(245,200,91,.035);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#ead7ae}
+.recruitment-grid-showcase{grid-template-columns:repeat(4,minmax(0,1fr))}
+.showcase-card{position:relative;overflow:hidden;padding-top:132px;background-size:cover;background-position:center;box-shadow:0 24px 60px rgba(0,0,0,.34),inset 0 0 0 1px rgba(255,255,255,.02)}
+.showcase-card:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,8,7,.20) 0%,rgba(8,7,5,.78) 40%,rgba(8,7,5,.94) 100%);z-index:0}
+.showcase-card>*{position:relative;z-index:1}
+.showcase-card .recruit-emblem{position:absolute;top:26px;left:26px;margin-bottom:0}
+.institution-card{background-image:url('../assets/img/experiences/experience_bcso_01.webp')}
+.ems-card{background-image:url('../assets/img/experiences/experience_ems_sud_01.webp')}
+.weazel-card{background-image:url('../assets/img/ville/ville_downtown_01.webp')}
+.motors-card{background-image:url('../assets/img/experiences/experience_concessionaire_voiture_01.webp')}
+.showcase-card small{letter-spacing:.18em}
+.showcase-card h3{font-size:26px}
+.showcase-card p{color:#e1d4be;min-height:110px}
+.showcase-card span{backdrop-filter:blur(4px)}
+.showcase-actions .v5-btn{min-width:260px}
+.portal-shell{background:linear-gradient(180deg,rgba(8,7,5,.90),rgba(5,4,3,.96))}
+.official-access-grid-showcase{grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.portal-card{min-height:372px;background-size:cover!important;background-position:center!important;overflow:hidden}
+.portal-card:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,5,4,.20),rgba(6,5,4,.76) 42%,rgba(6,5,4,.92) 100%);pointer-events:none}
+.portal-card>*{position:relative;z-index:1}
+.official-access-grid-showcase .portal-card:nth-child(1){background-image:url('../assets/img/ville/ville_skyline_sunset_01.webp')!important}
+.official-access-grid-showcase .portal-card:nth-child(2){background-image:url('../assets/img/ville/ville_downtown_01.webp')!important}
+.official-access-grid-showcase .portal-card:nth-child(3){background-image:url('../assets/img/map/map-los-santos-command.webp')!important}
+.official-access-grid-showcase .portal-card:nth-child(4){background-image:url('../assets/img/ville/ville_porsche_01.webp')!important}
+.portal-card .portal-icon{position:relative}
+.portal-card .portal-icon:after{content:"";position:absolute;inset:-9px;border-radius:999px;border:1px solid rgba(245,200,91,.15)}
+.portal-card p{color:#e1d4be}
+.showcase-signature{display:flex;align-items:center;justify-content:center;gap:26px;margin-top:34px;color:#ddc48d}
+.showcase-signature span{font-size:13px;letter-spacing:.24em;text-transform:uppercase;opacity:.85}
+.showcase-signature span:before{content:"";display:inline-block;width:90px;height:1px;margin-right:16px;vertical-align:middle;background:linear-gradient(90deg,transparent,rgba(245,200,91,.34))}
+.showcase-signature span:last-child:before{display:none}
+.showcase-signature span:last-child:after{content:"";display:inline-block;width:90px;height:1px;margin-left:16px;vertical-align:middle;background:linear-gradient(90deg,rgba(245,200,91,.34),transparent)}
+.showcase-signature b{font-family:Georgia,serif;font-size:48px;font-weight:700;color:#f5c85b;text-shadow:0 0 26px rgba(245,200,91,.16)}
+@media(max-width:1280px){.recruitment-grid-showcase,.official-access-grid-showcase{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:980px){.showcase-copy .overline:before,.showcase-copy .overline:after{width:34px}.showcase-tags{justify-content:flex-start;margin-bottom:24px}.recruitment-grid-showcase,.official-access-grid-showcase{grid-template-columns:1fr}.showcase-card{padding-top:122px}.showcase-actions .v5-btn{min-width:unset;width:100%}.showcase-signature{gap:14px;flex-wrap:wrap}.showcase-signature span{font-size:11px;letter-spacing:.14em}.showcase-signature span:before,.showcase-signature span:last-child:after{width:44px}}

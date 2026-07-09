@@ -1,28 +1,24 @@
-# Luxury RP — V5.1.5 Thematic Background Polish
+# Luxury RP — V5.1.7 Luxury Home Polish
 
-Version de travail issue de la V5.1.4 stable.
+Version de travail issue de la V5.1.6.
 
 ## Objectif
 
-Renforcer la vie visuelle des fiches sociétés, gangs, mafias, bikers et cartel sans casser la structure validée du site.
+Pousser encore plus loin la finition visuelle des deux sections de l’accueil :
+- Recrutements ouverts ;
+- Votre accès officiel à Luxury RP.
 
 ## Améliorations principales
 
-- fonds d’ambiance subtils sur chaque fiche officielle ;
-- accents colorés propres à chaque univers ;
-- bandeaux thématiques légers en arrière-plan ;
-- meilleure différenciation entre sociétés, gangs, mafias, bikers et cartel ;
-- cartes de la page sociétés plus vivantes au survol ;
-- textes de certaines zones génériques retravaillés pour rester élégants, clairs et cohérents ;
-- lisibilité préservée grâce aux overlays sombres et aux dégradés contrôlés ;
-- version GitHub Pages compatible.
-
-## Règle conservée
-
-La carte interactive publique ne révèle pas les points illégaux. Cayo reste visible uniquement comme repère géographique.
+- rendu plus luxe et plus immersif ;
+- cartes recrutements enrichies avec fonds visuels dédiés ;
+- meilleure présence graphique sans perte de lisibilité ;
+- portail officiel plus premium avec cartes plus incarnées ;
+- ajout de tags, d’ornements et d’une signature visuelle finale ;
+- hiérarchie plus forte et sensation plus “site officiel Luxury RP”.
 
 ## Déploiement
 
 Uploader le contenu du dossier à la racine du dépôt GitHub Pages.
 
-Version : V5.1.5 — Thematic Background Polish
+Version : V5.1.7 — Luxury Home Polish
