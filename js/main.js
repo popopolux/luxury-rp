@@ -155,3 +155,59 @@ window.addEventListener('load', () => {
   });
   update();
 })();
+
+
+// Luxury RP V5.1.3 — Media protection / copyright notice
+(function(){
+  const protectedSelector = [
+    'img','picture','svg','canvas','video',
+    '.v5-hero','.job-hero','.hub-card','.news-item','.mini-map','.map-canvas-wrap','.map-canvas',
+    '.media-thumb','[data-v5-media-viewer]','.lightbox','.entity-gallery','.cinema-row','.experience-mosaic',
+    '.panel-glass','.detail-card','.detail-image','.map-teaser-card'
+  ].join(',');
+
+  let toastTimer;
+  function ensureToast(){
+    let toast=document.querySelector('.protected-toast');
+    if(toast) return toast;
+    toast=document.createElement('div');
+    toast.className='protected-toast';
+    toast.setAttribute('role','status');
+    toast.setAttribute('aria-live','polite');
+    toast.innerHTML='<b>LR</b><span>Visuel protégé — © Luxury RP</span><em>copie directe désactivée</em>';
+    document.body.appendChild(toast);
+    return toast;
+  }
+  function showToast(){
+    const toast=ensureToast();
+    clearTimeout(toastTimer);
+    toast.classList.add('show');
+    toastTimer=setTimeout(()=>toast.classList.remove('show'),2200);
+  }
+  function isProtected(target){
+    return !!(target && target.closest && target.closest(protectedSelector));
+  }
+
+  document.querySelectorAll('img').forEach(img=>{
+    img.setAttribute('draggable','false');
+    img.addEventListener('dragstart',e=>e.preventDefault());
+    img.addEventListener('contextmenu',e=>{e.preventDefault();showToast();});
+  });
+
+  document.addEventListener('dragstart',e=>{
+    if(isProtected(e.target)) e.preventDefault();
+  }, true);
+
+  document.addEventListener('contextmenu',e=>{
+    if(!isProtected(e.target)) return;
+    e.preventDefault();
+    showToast();
+  }, true);
+
+  document.addEventListener('copy',e=>{
+    if(isProtected(document.activeElement)){
+      e.preventDefault();
+      showToast();
+    }
+  }, true);
+})();

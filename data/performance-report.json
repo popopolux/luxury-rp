@@ -1,8 +1,12 @@
 {
-  "version": "V5.1.2",
-  "images_total": 119,
-  "new_images_imported": 25,
-  "duplicate_exact_files": 0,
-  "duplicate_pairs": [],
-  "note": "Images nouvelles converties en WebP, galeries enrichies et références locales vérifiées."
+  "version": "V5.1.3",
+  "assets_images": 119,
+  "optimizations": [
+    "Images WebP conservées",
+    "Lazy loading conservé",
+    "Protection médias ajoutée sans librairie externe",
+    "Aucun script tiers ajouté",
+    "noimageindex ajouté aux pages HTML"
+  ],
+  "notes": "Le blocage du clic droit ne protège pas contre les captures ou outils développeur, mais réduit la copie directe et garde une expérience propre."
 }
