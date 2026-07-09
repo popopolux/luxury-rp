@@ -1,24 +1,17 @@
-# Luxury RP — V5.1.7 Luxury Home Polish
+# Luxury RP — V5.1.8 Home Band Polish
 
-Version de travail issue de la V5.1.6.
+Base issue de la V5.1.7.
 
 ## Objectif
 
-Pousser encore plus loin la finition visuelle des deux sections de l’accueil :
-- Recrutements ouverts ;
-- Votre accès officiel à Luxury RP.
+Transformer les deux sections de l’accueil concernées en véritables bandeaux pleine largeur, plus élégants et mieux intégrés à la direction artistique globale.
 
-## Améliorations principales
+## Ajustements principaux
 
-- rendu plus luxe et plus immersif ;
-- cartes recrutements enrichies avec fonds visuels dédiés ;
-- meilleure présence graphique sans perte de lisibilité ;
-- portail officiel plus premium avec cartes plus incarnées ;
-- ajout de tags, d’ornements et d’une signature visuelle finale ;
-- hiérarchie plus forte et sensation plus “site officiel Luxury RP”.
+- suppression de l’effet “gros rectangle” sur les deux fonds ;
+- sections Recrutements et Portail officiel en bandeaux larges ;
+- visuels de fond nettement plus discrets ;
+- séparations haut/bas plus fines et plus premium ;
+- meilleure intégration dans la continuité de la home.
 
-## Déploiement
-
-Uploader le contenu du dossier à la racine du dépôt GitHub Pages.
-
-Version : V5.1.7 — Luxury Home Polish
+Version : V5.1.8 — Home Band Polish
