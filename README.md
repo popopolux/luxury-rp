@@ -13,6 +13,12 @@ Cette mise à jour améliore le parcours utilisateur et la lisibilité sans cass
 - conservation de la carte publique sans points illégaux ;
 - version, manifest et rapports de validation mis à jour.
 
+## Upload GitHub Pages
+
+Dézipper le dossier puis uploader le contenu du dossier `luxury-rp-v5-1-1-ux-readability-polish/` à la racine du dépôt GitHub Pages.
+
+Ne pas uploader le dossier parent lui-même.
+
 ## Discord
 
 https://discord.gg/7u3SUx9VGF
