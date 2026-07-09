@@ -50,7 +50,6 @@ assets/img/experiences/experience_unicorn_04.webp
 assets/img/experiences/experience_wiwang_tower_01.webp
 assets/img/experiences/experience_wiwang_tower_02.webp
 assets/img/experiences/experience_wiwang_tower_03.webp
-assets/img/hero/hero-avion-v3-luxury-rp.webp
 assets/img/hero/hero-v5-city-command-center.webp
 assets/img/illegal/illegal_arme_02.webp
 assets/img/illegal/illegal_arme_03.webp
@@ -79,7 +78,6 @@ assets/img/illegal/illegal_laboratoire_03.webp
 assets/img/illegal/illegal_recolte_01.webp
 assets/img/illegal/illegal_recolte_weed_01.webp
 assets/img/illegal/illegal_traffic_01.webp
-assets/img/map/map-los-santos-cayo-v1.webp
 assets/img/map/map-los-santos-command.webp
 assets/img/map/map-preview-command.webp
 assets/img/ville/ville_downtown_01.webp
