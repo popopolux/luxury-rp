@@ -1,577 +1,482 @@
 {
-  "version": "V5.1.1",
-  "total_assets": 95,
+  "version": "V5.1.2",
+  "images_count": 119,
   "images": [
     {
-      "path": "assets/MANIFEST_IMAGES.txt",
-      "bytes": 4687,
-      "format": "txt",
-      "sha1": "6eb1c06a981bfb196e2b4aa90a62621050bedba5"
-    },
-    {
       "path": "assets/img/experiences/experience_agence_immo_01.webp",
-      "bytes": 283634,
-      "format": "webp",
-      "sha1": "b03e822df2a8a1490d3701542c62bd99f19b2ac0"
+      "size_bytes": 283634
     },
     {
       "path": "assets/img/experiences/experience_airport_01.webp",
-      "bytes": 219480,
-      "format": "webp",
-      "sha1": "dc77cac7a424129d56e5ef40a63eaaedeb5901aa"
+      "size_bytes": 219480
     },
     {
       "path": "assets/img/experiences/experience_airport_02.webp",
-      "bytes": 226022,
-      "format": "webp",
-      "sha1": "76116266aabf9f8f01c2a1cab7f5e570ea95f139"
+      "size_bytes": 226022
     },
     {
       "path": "assets/img/experiences/experience_alamo_island_01.webp",
-      "bytes": 488332,
-      "format": "webp",
-      "sha1": "3b74d890240e634c953000d665a7ef4b07f3018c"
+      "size_bytes": 488332
     },
     {
       "path": "assets/img/experiences/experience_ballas_records_01.webp",
-      "bytes": 221828,
-      "format": "webp",
-      "sha1": "727cb256115c27738c0ef8dc6ed2d8edfe2066fe"
+      "size_bytes": 221828
     },
     {
       "path": "assets/img/experiences/experience_ballas_records_02.webp",
-      "bytes": 194132,
-      "format": "webp",
-      "sha1": "ec03ef0182e3fc5e0859b59781a8ff9f18eb9285"
+      "size_bytes": 194132
     },
     {
       "path": "assets/img/experiences/experience_ballas_records_03.webp",
-      "bytes": 146904,
-      "format": "webp",
-      "sha1": "a53a718b47818039ceb8ed71b0fbf15aa359ce1b"
+      "size_bytes": 146904
     },
     {
       "path": "assets/img/experiences/experience_bcso_01.webp",
-      "bytes": 276596,
-      "format": "webp",
-      "sha1": "f40c3e9819459f7920e67c8ed5c4ed8d4d986a08"
+      "size_bytes": 276596
     },
     {
       "path": "assets/img/experiences/experience_bcso_02.webp",
-      "bytes": 299562,
-      "format": "webp",
-      "sha1": "1ae2a5f41431445036ef6b219f267d4ec405d6e8"
+      "size_bytes": 299562
     },
     {
       "path": "assets/img/experiences/experience_bennys_01.webp",
-      "bytes": 244194,
-      "format": "webp",
-      "sha1": "73a15277161426b3b51ba19d9632c82f2737eb56"
+      "size_bytes": 244194
     },
     {
       "path": "assets/img/experiences/experience_bennys_02.webp",
-      "bytes": 211858,
-      "format": "webp",
-      "sha1": "0489d403a0ff9ae5472d28793ba1d0a5637b2c7d"
+      "size_bytes": 211858
     },
     {
       "path": "assets/img/experiences/experience_burgershot_01.webp",
-      "bytes": 320258,
-      "format": "webp",
-      "sha1": "8e89ceb00dd5ea04d9e98ee27b57b4f109b88e61"
+      "size_bytes": 320258
     },
     {
       "path": "assets/img/experiences/experience_burgershot_02.webp",
-      "bytes": 307646,
-      "format": "webp",
-      "sha1": "ad11ffda4a3b0671cf504f9b1bcf9fe746a6f6b4"
+      "size_bytes": 307646
     },
     {
       "path": "assets/img/experiences/experience_casino_01.webp",
-      "bytes": 211176,
-      "format": "webp",
-      "sha1": "b6a4a4e3bdf8b978eb771f6b1290113c18c3f32d"
+      "size_bytes": 211176
     },
     {
       "path": "assets/img/experiences/experience_casino_02.webp",
-      "bytes": 118346,
-      "format": "webp",
-      "sha1": "49297017c48bb520ad8636981dbee24f8be9cc3d"
+      "size_bytes": 118346
     },
     {
       "path": "assets/img/experiences/experience_casino_03.webp",
-      "bytes": 327748,
-      "format": "webp",
-      "sha1": "0906027941d9726de3fe6933d358184894f36874"
+      "size_bytes": 327748
     },
     {
       "path": "assets/img/experiences/experience_casino_04.webp",
-      "bytes": 200422,
-      "format": "webp",
-      "sha1": "8f386c929b4bda726c1d63b1ba83b5c664b8932d"
+      "size_bytes": 200422
+    },
+    {
+      "path": "assets/img/experiences/experience_casino_new_03.webp",
+      "size_bytes": 256648
+    },
+    {
+      "path": "assets/img/experiences/experience_casino_new_05.webp",
+      "size_bytes": 231672
+    },
+    {
+      "path": "assets/img/experiences/experience_casino_new_06.webp",
+      "size_bytes": 188122
     },
     {
       "path": "assets/img/experiences/experience_club77_01.webp",
-      "bytes": 242238,
-      "format": "webp",
-      "sha1": "f7b433465386e71f48b8fbde65f56f75a6431ce7"
+      "size_bytes": 242238
     },
     {
       "path": "assets/img/experiences/experience_club77_02.webp",
-      "bytes": 242200,
-      "format": "webp",
-      "sha1": "41eb6eba5ae76ce597bfcead5f05e307350da69f"
+      "size_bytes": 242200
     },
     {
       "path": "assets/img/experiences/experience_club77_03.webp",
-      "bytes": 233278,
-      "format": "webp",
-      "sha1": "b2e1487c9a742198e7f6bfb53bc7b9ed9a4e76e5"
+      "size_bytes": 233278
     },
     {
       "path": "assets/img/experiences/experience_concessionaire_bateau_01.webp",
-      "bytes": 275840,
-      "format": "webp",
-      "sha1": "d8141a63f67a4a44741a64bd3a526e75935fc937"
+      "size_bytes": 275840
     },
     {
       "path": "assets/img/experiences/experience_concessionaire_voiture_01.webp",
-      "bytes": 270774,
-      "format": "webp",
-      "sha1": "4681ccd0db32d4ab11399c78c4e3a599b911252a"
+      "size_bytes": 270774
     },
     {
       "path": "assets/img/experiences/experience_ems_nord_01.webp",
-      "bytes": 271916,
-      "format": "webp",
-      "sha1": "ff23e46bc6f8dd721011f526a6539ef196145c6d"
+      "size_bytes": 271916
     },
     {
       "path": "assets/img/experiences/experience_ems_sud_01.webp",
-      "bytes": 173420,
-      "format": "webp",
-      "sha1": "9598e9da52b35011ea05abcdbb59e94f01a558a9"
+      "size_bytes": 173420
     },
     {
       "path": "assets/img/experiences/experience_ems_sud_02.webp",
-      "bytes": 259642,
-      "format": "webp",
-      "sha1": "596808c84c84d158bc95c130b0d467b038bc195b"
+      "size_bytes": 259642
     },
     {
       "path": "assets/img/experiences/experience_fightclub_01.webp",
-      "bytes": 271394,
-      "format": "webp",
-      "sha1": "9edd3bf4dd48bcc57dfb69c28c022d2f509e3fc1"
+      "size_bytes": 271394
     },
     {
       "path": "assets/img/experiences/experience_fightclub_02.webp",
-      "bytes": 228828,
-      "format": "webp",
-      "sha1": "9e54587c3aec6a93e93df1a4c822e4c03a5ea3ba"
+      "size_bytes": 228828
     },
     {
       "path": "assets/img/experiences/experience_fightclub_03.webp",
-      "bytes": 149036,
-      "format": "webp",
-      "sha1": "6af6b330151f366ecc96ff6b6cbbcdee868dd0f9"
+      "size_bytes": 149036
     },
     {
       "path": "assets/img/experiences/experience_gouvernement_01.webp",
-      "bytes": 413760,
-      "format": "webp",
-      "sha1": "fcc83163fe9de434d42326f3f788119db5a77234"
+      "size_bytes": 413760
     },
     {
       "path": "assets/img/experiences/experience_gouvernement_02.webp",
-      "bytes": 248096,
-      "format": "webp",
-      "sha1": "4fe035999ffea1cc978658e634fb1dc024e04811"
+      "size_bytes": 248096
     },
     {
       "path": "assets/img/experiences/experience_gouvernement_03.webp",
-      "bytes": 276842,
-      "format": "webp",
-      "sha1": "a1e36d5d2f596426f000005b7ef7fc8f50580e0b"
+      "size_bytes": 276842
     },
     {
       "path": "assets/img/experiences/experience_grand_senora_raceway_01.webp",
-      "bytes": 315034,
-      "format": "webp",
-      "sha1": "be0c7815953340be12529467f9ba456315f37e26"
+      "size_bytes": 315034
     },
     {
       "path": "assets/img/experiences/experience_grand_senora_raceway_02.webp",
-      "bytes": 341552,
-      "format": "webp",
-      "sha1": "e52a9efe2d2a798c906864d76f1217967cb8966b"
+      "size_bytes": 341552
     },
     {
       "path": "assets/img/experiences/experience_ls_custom_01.webp",
-      "bytes": 315018,
-      "format": "webp",
-      "sha1": "88afb52a53beb5bf9049aa7b542982d4ae65eafd"
+      "size_bytes": 315018
     },
     {
       "path": "assets/img/experiences/experience_ls_custom_02.webp",
-      "bytes": 291218,
-      "format": "webp",
-      "sha1": "46d7eb4d1433c17dca213cb1d0a2214d3fbbbffb"
+      "size_bytes": 291218
     },
     {
       "path": "assets/img/experiences/experience_ls_custom_03.webp",
-      "bytes": 333518,
-      "format": "webp",
-      "sha1": "795eda0b71813caa5260097fbf6e32c8c54a1613"
+      "size_bytes": 333518
     },
     {
       "path": "assets/img/experiences/experience_marina_01.webp",
-      "bytes": 298638,
-      "format": "webp",
-      "sha1": "3776ceb383d6d87170b2ff50d9ed568dede2448d"
+      "size_bytes": 298638
     },
     {
       "path": "assets/img/experiences/experience_marina_02.webp",
-      "bytes": 437892,
-      "format": "webp",
-      "sha1": "b5422d4841e4480fdef31540482092607ba2507b"
+      "size_bytes": 437892
     },
     {
       "path": "assets/img/experiences/experience_paradise_mechanic_01.webp",
-      "bytes": 292102,
-      "format": "webp",
-      "sha1": "01b5409394b198a6ae231b411be40b5b22561541"
+      "size_bytes": 292102
     },
     {
       "path": "assets/img/experiences/experience_paradise_mechanic_02.webp",
-      "bytes": 291794,
-      "format": "webp",
-      "sha1": "42cc448ec03c6ff4dc97b306d02f6e67ddfa36bd"
+      "size_bytes": 291794
     },
     {
       "path": "assets/img/experiences/experience_paradise_mechanic_03.webp",
-      "bytes": 354294,
-      "format": "webp",
-      "sha1": "54e99635eb17934b369ed3b5b900d4cff65fb9d5"
+      "size_bytes": 354294
     },
     {
       "path": "assets/img/experiences/experience_pearls_01.webp",
-      "bytes": 228414,
-      "format": "webp",
-      "sha1": "27a17e3b27923a24564001c90cd18c4c683e0f6a"
+      "size_bytes": 228414
     },
     {
       "path": "assets/img/experiences/experience_pearls_02.webp",
-      "bytes": 276804,
-      "format": "webp",
-      "sha1": "97996a1cfe149114a1cec0ac3a604f67bef415ff"
+      "size_bytes": 276804
     },
     {
       "path": "assets/img/experiences/experience_pearls_03.webp",
-      "bytes": 388286,
-      "format": "webp",
-      "sha1": "3ea53df982d812cd6edfdc5da2064caf656bb67c"
+      "size_bytes": 388286
     },
     {
       "path": "assets/img/experiences/experience_pearls_04.webp",
-      "bytes": 389344,
-      "format": "webp",
-      "sha1": "140ccd5086d7a32338f3915d7ff2d99ad42de6ce"
+      "size_bytes": 389344
     },
     {
       "path": "assets/img/experiences/experience_unicorn_01.webp",
-      "bytes": 336930,
-      "format": "webp",
-      "sha1": "e1f732e3bd459b1a68f8ef06e88c8cdec6bd6455"
+      "size_bytes": 336930
     },
     {
       "path": "assets/img/experiences/experience_unicorn_02.webp",
-      "bytes": 184902,
-      "format": "webp",
-      "sha1": "10f6391d0ef6a116a5c0b3c9cfac3b01f5e8718b"
+      "size_bytes": 184902
     },
     {
       "path": "assets/img/experiences/experience_unicorn_03.webp",
-      "bytes": 143462,
-      "format": "webp",
-      "sha1": "3d3d40943c498e393dd6075e421abf4b5ab46d4a"
+      "size_bytes": 143462
     },
     {
       "path": "assets/img/experiences/experience_unicorn_04.webp",
-      "bytes": 147586,
-      "format": "webp",
-      "sha1": "b73253b347ca7ea13f030ad9b6d8fa75e344cf50"
+      "size_bytes": 147586
     },
     {
       "path": "assets/img/experiences/experience_wiwang_tower_01.webp",
-      "bytes": 218278,
-      "format": "webp",
-      "sha1": "050e7b70dffccffafa9e1fbd0396eb5ca525c6b5"
+      "size_bytes": 218278
     },
     {
       "path": "assets/img/experiences/experience_wiwang_tower_02.webp",
-      "bytes": 149564,
-      "format": "webp",
-      "sha1": "09a6cccd470c5ac3c2439b713c8cebea7dea814a"
+      "size_bytes": 149564
     },
     {
       "path": "assets/img/experiences/experience_wiwang_tower_03.webp",
-      "bytes": 153140,
-      "format": "webp",
-      "sha1": "f668ae251e6cdd3f2137b36afab82620a9976846"
+      "size_bytes": 153140
     },
     {
       "path": "assets/img/hero/hero-v5-city-command-center.webp",
-      "bytes": 306944,
-      "format": "webp",
-      "sha1": "acd4f68a7f84563cd94d83d44f3740b942269397"
+      "size_bytes": 306944
     },
     {
       "path": "assets/img/illegal/illegal_arme_02.webp",
-      "bytes": 195820,
-      "format": "webp",
-      "sha1": "38a6d9fe5c6e9ab63fddea0d04fa0944ed98c0c2"
+      "size_bytes": 195820
     },
     {
       "path": "assets/img/illegal/illegal_arme_03.webp",
-      "bytes": 159524,
-      "format": "webp",
-      "sha1": "7394d5f5010ecde9b83b22dd16bebf30bd48038b"
+      "size_bytes": 159524
+    },
+    {
+      "path": "assets/img/illegal/illegal_biker_lost_mc_01.webp",
+      "size_bytes": 233678
+    },
+    {
+      "path": "assets/img/illegal/illegal_biker_lost_mc_02.webp",
+      "size_bytes": 134452
+    },
+    {
+      "path": "assets/img/illegal/illegal_biker_soa_01.webp",
+      "size_bytes": 253848
+    },
+    {
+      "path": "assets/img/illegal/illegal_biker_soa_02.webp",
+      "size_bytes": 187554
+    },
+    {
+      "path": "assets/img/illegal/illegal_biker_soa_03.webp",
+      "size_bytes": 182616
     },
     {
       "path": "assets/img/illegal/illegal_braquage_bank_01.webp",
-      "bytes": 201924,
-      "format": "webp",
-      "sha1": "8e9a8d029f59bc5af2fe6edaed22aae3ea4789eb"
+      "size_bytes": 201924
     },
     {
       "path": "assets/img/illegal/illegal_braquage_fleeca_01.webp",
-      "bytes": 292468,
-      "format": "webp",
-      "sha1": "7ab3723b2ea6896008293f1874202a198b01a3f8"
+      "size_bytes": 292468
     },
     {
       "path": "assets/img/illegal/illegal_braquage_superette_01.webp",
-      "bytes": 431724,
-      "format": "webp",
-      "sha1": "b1b933ebcde320924280a5763174d3723c7bc18e"
+      "size_bytes": 431724
     },
     {
       "path": "assets/img/illegal/illegal_cartel_cayo_01.webp",
-      "bytes": 298020,
-      "format": "webp",
-      "sha1": "9f71de845259f431cf1b4d09548edbe272e1405d"
+      "size_bytes": 298020
     },
     {
       "path": "assets/img/illegal/illegal_cartel_cayo_02.webp",
-      "bytes": 283700,
-      "format": "webp",
-      "sha1": "6fee1b58ac7f07aabffb6f14d71f900a67f4234a"
+      "size_bytes": 283700
     },
     {
       "path": "assets/img/illegal/illegal_cayo_bridge_01.webp",
-      "bytes": 271564,
-      "format": "webp",
-      "sha1": "40a38ce3b4c686f471d62f3a693ecc63d7030714"
+      "size_bytes": 271564
+    },
+    {
+      "path": "assets/img/illegal/illegal_cayo_ile_01.webp",
+      "size_bytes": 450614
     },
     {
       "path": "assets/img/illegal/illegal_cayo_villa_exterieur_01.webp",
-      "bytes": 349384,
-      "format": "webp",
-      "sha1": "8708ac3b90a9dc4e77bb7b589a7dde6974fb0489"
+      "size_bytes": 349384
     },
     {
       "path": "assets/img/illegal/illegal_cayo_villa_interieur_01.webp",
-      "bytes": 277014,
-      "format": "webp",
-      "sha1": "fc2ab9065b0d18aac2d00d67c7186b3852862017"
+      "size_bytes": 277014
+    },
+    {
+      "path": "assets/img/illegal/illegal_gang_ballas_02.webp",
+      "size_bytes": 112494
+    },
+    {
+      "path": "assets/img/illegal/illegal_gang_ballas_03.webp",
+      "size_bytes": 270284
     },
     {
       "path": "assets/img/illegal/illegal_gang_ballas_new_01.webp",
-      "bytes": 269690,
-      "format": "webp",
-      "sha1": "72acd62977fa3e9c700885e726e700dd5002fc39"
+      "size_bytes": 269690
     },
     {
       "path": "assets/img/illegal/illegal_gang_bloods_01.webp",
-      "bytes": 469854,
-      "format": "webp",
-      "sha1": "0b1408808810976da8f0109662b47bade52b1ef9"
+      "size_bytes": 469854
     },
     {
       "path": "assets/img/illegal/illegal_gang_bloods_new_01.webp",
-      "bytes": 180686,
-      "format": "webp",
-      "sha1": "9dc0e6e6c6dd3f69db9c2b4f779a693a07cc3e8a"
+      "size_bytes": 180686
     },
     {
       "path": "assets/img/illegal/illegal_gang_families_01.webp",
-      "bytes": 513622,
-      "format": "webp",
-      "sha1": "f805976b1cca0d2e4ac8cc6fa04095ed4ae15c5f"
+      "size_bytes": 513622
     },
     {
       "path": "assets/img/illegal/illegal_gang_families_new_01.webp",
-      "bytes": 247036,
-      "format": "webp",
-      "sha1": "ba72e230cb48c757b437ad9b89d3c9b39b06d4ea"
+      "size_bytes": 247036
     },
     {
       "path": "assets/img/illegal/illegal_gang_families_new_02.webp",
-      "bytes": 191188,
-      "format": "webp",
-      "sha1": "6c07136d67c52de64d2700bd10deb0ae24eb66d3"
+      "size_bytes": 191188
+    },
+    {
+      "path": "assets/img/illegal/illegal_gang_marabunta_01.webp",
+      "size_bytes": 206486
+    },
+    {
+      "path": "assets/img/illegal/illegal_gang_marabunta_02.webp",
+      "size_bytes": 122796
+    },
+    {
+      "path": "assets/img/illegal/illegal_gang_marabunta_03.webp",
+      "size_bytes": 169986
     },
     {
       "path": "assets/img/illegal/illegal_gang_vagos_01.webp",
-      "bytes": 541318,
-      "format": "webp",
-      "sha1": "77e5a4567e5b4e63efc8579d299d5735a9bd4658"
+      "size_bytes": 541318
+    },
+    {
+      "path": "assets/img/illegal/illegal_gang_vagos_02.webp",
+      "size_bytes": 231454
+    },
+    {
+      "path": "assets/img/illegal/illegal_gang_vagos_03.webp",
+      "size_bytes": 214348
     },
     {
       "path": "assets/img/illegal/illegal_gang_vagos_new_01.webp",
-      "bytes": 242430,
-      "format": "webp",
-      "sha1": "a961c0bed63121849e000283859689dd7033e42c"
+      "size_bytes": 242430
     },
     {
       "path": "assets/img/illegal/illegal_go_fast_01.webp",
-      "bytes": 189682,
-      "format": "webp",
-      "sha1": "157fc58a602a6116e8072d1276f735abfd479b84"
+      "size_bytes": 189682
     },
     {
       "path": "assets/img/illegal/illegal_go_fast_02.webp",
-      "bytes": 360754,
-      "format": "webp",
-      "sha1": "b2e4e02901e6fbc3c5e391d254f7bd69f8a78fe1"
+      "size_bytes": 360754
     },
     {
       "path": "assets/img/illegal/illegal_go_fast_03.webp",
-      "bytes": 299002,
-      "format": "webp",
-      "sha1": "f8966834f07b12c394d1f05904ef075c26802e5d"
+      "size_bytes": 299002
     },
     {
       "path": "assets/img/illegal/illegal_laboratoire_01.webp",
-      "bytes": 154528,
-      "format": "webp",
-      "sha1": "5f76fce89389b395e512355b13c8905962ade80b"
+      "size_bytes": 154528
     },
     {
       "path": "assets/img/illegal/illegal_laboratoire_02.webp",
-      "bytes": 250920,
-      "format": "webp",
-      "sha1": "bc61550740c9dce5fad9cf4bf3ff80ec213e2af7"
+      "size_bytes": 250920
     },
     {
       "path": "assets/img/illegal/illegal_laboratoire_03.webp",
-      "bytes": 147932,
-      "format": "webp",
-      "sha1": "568538dbb4422223410a0e2fbd122771f52463b5"
+      "size_bytes": 147932
+    },
+    {
+      "path": "assets/img/illegal/illegal_mafia_armenienne_01.webp",
+      "size_bytes": 155412
+    },
+    {
+      "path": "assets/img/illegal/illegal_mafia_armenienne_02.webp",
+      "size_bytes": 107370
+    },
+    {
+      "path": "assets/img/illegal/illegal_mafia_armenienne_03.webp",
+      "size_bytes": 122346
+    },
+    {
+      "path": "assets/img/illegal/illegal_mafia_bratva_01.webp",
+      "size_bytes": 177006
+    },
+    {
+      "path": "assets/img/illegal/illegal_mafia_bratva_02.webp",
+      "size_bytes": 185884
+    },
+    {
+      "path": "assets/img/illegal/illegal_mafia_bratva_03.webp",
+      "size_bytes": 105176
+    },
+    {
+      "path": "assets/img/illegal/illegal_mafia_cosa_nostra_01.webp",
+      "size_bytes": 191438
+    },
+    {
+      "path": "assets/img/illegal/illegal_mafia_cosa_nostra_02.webp",
+      "size_bytes": 178622
+    },
+    {
+      "path": "assets/img/illegal/illegal_mafia_cosa_nostra_03.webp",
+      "size_bytes": 138086
     },
     {
       "path": "assets/img/illegal/illegal_recolte_01.webp",
-      "bytes": 397416,
-      "format": "webp",
-      "sha1": "2a2b61c124df8e99b62108e076acf51b397b6c2d"
+      "size_bytes": 397416
     },
     {
       "path": "assets/img/illegal/illegal_recolte_weed_01.webp",
-      "bytes": 306732,
-      "format": "webp",
-      "sha1": "44e1e1d897a250b3edd9d112fba91d0f9e05a046"
+      "size_bytes": 306732
     },
     {
       "path": "assets/img/illegal/illegal_traffic_01.webp",
-      "bytes": 164480,
-      "format": "webp",
-      "sha1": "3d180b6fde5f2bab06b859ec1f31e1995d25d9e7"
+      "size_bytes": 164480
     },
     {
       "path": "assets/img/map/map-los-santos-command.webp",
-      "bytes": 441196,
-      "format": "webp",
-      "sha1": "341859d664bb8e75a37b801223437b57ea49c9ec"
+      "size_bytes": 441196
     },
     {
       "path": "assets/img/map/map-preview-command.webp",
-      "bytes": 225712,
-      "format": "webp",
-      "sha1": "667499e5fd93c2d6be3a27ef4f728896e91746fb"
+      "size_bytes": 225712
     },
     {
       "path": "assets/img/ville/ville_downtown_01.webp",
-      "bytes": 286638,
-      "format": "webp",
-      "sha1": "657e922fd03454da5ba323630d101219350a5805"
+      "size_bytes": 286638
     },
     {
       "path": "assets/img/ville/ville_downtown_02.webp",
-      "bytes": 281474,
-      "format": "webp",
-      "sha1": "644a64ecbebfed69819badcfa8e84b6f94664d89"
+      "size_bytes": 281474
     },
     {
       "path": "assets/img/ville/ville_downtown_03.webp",
-      "bytes": 319582,
-      "format": "webp",
-      "sha1": "57232cba4af73eb96d95f3130c643cdc5b2263e5"
+      "size_bytes": 319582
     },
     {
       "path": "assets/img/ville/ville_los_santos_river_01.webp",
-      "bytes": 381898,
-      "format": "webp",
-      "sha1": "57bda320b03c329a0da201152229879237b2a68c"
+      "size_bytes": 381898
     },
     {
       "path": "assets/img/ville/ville_los_santos_river_02.webp",
-      "bytes": 354040,
-      "format": "webp",
-      "sha1": "1163196ffd7263baf50df1bf349c298039c178d8"
+      "size_bytes": 354040
     },
     {
       "path": "assets/img/ville/ville_los_santos_river_03.webp",
-      "bytes": 374744,
-      "format": "webp",
-      "sha1": "e4c6646191e15670fb36a0918a456e06296d7b74"
+      "size_bytes": 374744
     },
     {
       "path": "assets/img/ville/ville_porsche_01.webp",
-      "bytes": 271972,
-      "format": "webp",
-      "sha1": "0d6ea58e7415c78ba812f39e6c8af250326d3e97"
+      "size_bytes": 271972
     },
     {
       "path": "assets/img/ville/ville_port_01.webp",
-      "bytes": 286376,
-      "format": "webp",
-      "sha1": "831b1e8557030484753011692da98fd526588e19"
+      "size_bytes": 286376
     },
     {
       "path": "assets/img/ville/ville_skyline_night_01.webp",
-      "bytes": 261674,
-      "format": "webp",
-      "sha1": "feb4e03f433d82382eae7497d7c9f77fba9c1580"
+      "size_bytes": 261674
     },
     {
       "path": "assets/img/ville/ville_skyline_sunset_01.webp",
-      "bytes": 272848,
-      "format": "webp",
-      "sha1": "879e20e4ac4b5ce0b8b9cf5e77bd96d65f561318"
+      "size_bytes": 272848
     },
     {
       "path": "assets/img/ville/ville_vespucci_beach_01.webp",
-      "bytes": 328926,
-      "format": "webp",
-      "sha1": "b10da788da3e3883a114c8ecaeb4c20e90b1b62b"
+      "size_bytes": 328926
     },
     {
       "path": "assets/img/ville/ville_vinewood_hills_01.webp",
-      "bytes": 320674,
-      "format": "webp",
-      "sha1": "0c3740f4cc774c5104be641d7978ba5736931ebe"
+      "size_bytes": 320674
     }
-  ],
-  "duplicate_groups": []
+  ]
 }

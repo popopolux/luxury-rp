@@ -1,24 +1,17 @@
-# Luxury RP — V5.1.1 UX & Readability Polish
+# Luxury RP — V5.1.2 Illegal & Media Enrichment
 
-Version stable basée sur la V5.1.0 Official Platform Upgrade.
+Version basée sur la V5.1.1 stable, avec enrichissement visuel des fiches groupes et lieux.
 
-## Objectif de cette version
+## Nouveautés
+- Intégration des nouveaux visuels gangs, mafias et bikers.
+- Mise à jour des fiches Ballas, Vagos, Marabunta, Bratva, Mafia Arménienne, Cosa Nostra, Lost MC et SOA.
+- Ajout de nouveaux visuels Casino.
+- Ajout d’une nouvelle vue de Cayo Perico.
+- Galeries de fiches nettoyées : moins de doublons, plus de cohérence visuelle.
+- Galerie médias d’accueil enrichie.
+- Manifest images et rapport performance régénérés.
 
-Cette mise à jour améliore le parcours utilisateur et la lisibilité sans casser la structure validée :
+## Note carte publique
+La carte interactive publique conserve son principe validé : pas d’affichage des points illégaux. Cayo reste visible comme repère géographique, sans exposition sensible.
 
-- micro-correctif visuel du bloc **« Un panel pensé pour gérer la ville »** ;
-- ajout d’un bloc **Parcours joueur** pour guider les nouveaux arrivants et les joueurs déjà en ville ;
-- mise en avant du **Guide d’arrivée**, du **Règlement**, de la **Carte interactive**, des **Recrutements** et du **Changelog** ;
-- reprise des textes trop généraux dans les fiches sociétés ;
-- conservation de la carte publique sans points illégaux ;
-- version, manifest et rapports de validation mis à jour.
-
-## Upload GitHub Pages
-
-Dézipper le dossier puis uploader le contenu du dossier `luxury-rp-v5-1-1-ux-readability-polish/` à la racine du dépôt GitHub Pages.
-
-Ne pas uploader le dossier parent lui-même.
-
-## Discord
-
-https://discord.gg/7u3SUx9VGF
+Discord officiel : https://discord.gg/7u3SUx9VGF
