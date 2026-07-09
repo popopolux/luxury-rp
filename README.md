@@ -1,16 +1,19 @@
-# Luxury RP — V5.2.0 Editorial Luxury Upgrade
+# Luxury RP — V5.2.1 Editorial Micro-Polish
 
-Base issue de la V5.1.9.
+Base issue de la V5.2.0.
 
 ## Objectif
-Faire monter la page d’accueil d’un cran pour lui donner un vrai rythme éditorial premium, plus de cohérence visuelle et une lecture plus fluide pour les nouveaux joueurs comme pour les habitués.
+
+Affiner la page d’accueil au pixel près après la montée en gamme V5.2.0 : respirations, séparateurs, cards, transitions et rythme éditorial.
 
 ## Ajustements principaux
-- hero enrichi avec métriques et hiérarchie plus premium ;
-- affinage global des espacements et des séparateurs ;
-- bandeaux home mieux intégrés dans le scroll ;
-- cards, blocs et fonds plus nobles et plus cohérents ;
-- section panel renforcée en lisibilité ;
-- cohérence visuelle générale plus luxe et plus éditoriale.
 
-Version : V5.2.0 — Editorial Luxury Upgrade
+- séparateurs plus fins entre les grandes zones ;
+- meilleur rythme vertical sur la home ;
+- hero et métriques plus propres ;
+- cards principales plus nobles au survol ;
+- blocs Recrutements / Portail officiel mieux intégrés ;
+- panel et médias plus cohérents dans la continuité du scroll ;
+- version homogénéisée dans les footers et le changelog.
+
+Version : V5.2.1 — Editorial Micro-Polish

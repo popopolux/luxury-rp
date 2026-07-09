@@ -1,5 +1,5 @@
 {
-  "version": "V5.1.5",
+  "version": "V5.2.1",
   "asset_total_bytes": 38327923,
   "asset_total_mb": 36.55,
   "by_extension_bytes": {
@@ -7,8 +7,6 @@
     ".webp": 31226238,
     ".jpg": 7094480
   },
-  "notes": [
-    "No new heavy imagery added; thematic layer uses existing optimized images as subtle CSS backgrounds.",
-    "WebP assets remain prioritized and fallbacks from V5.1.4 are preserved."
-  ]
+  "notes": "Micro-ajustements CSS et UX sur la home, sans ajout d’images lourdes.",
+  "update": "Editorial Micro-Polish"
 }
