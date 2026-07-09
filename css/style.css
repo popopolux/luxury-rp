@@ -639,3 +639,126 @@ body.theme-restaurant .premium-job:before,body.theme-resort .premium-job:before,
   .official-access-showcase .showcase-signature{padding-left:20px;padding-right:20px}
   .recruitment-showcase .showcase-backdrop,.official-access-showcase .showcase-backdrop{opacity:.14}
 }
+
+/* =========================================================
+   V5.1.9 — Fullwidth band fix
+   ========================================================= */
+.recruitment-showcase,
+.official-access-showcase{
+  position: relative !important;
+  left: 50% !important;
+  right: 50% !important;
+  width: 100vw !important;
+  max-width: 100vw !important;
+  margin-left: -50vw !important;
+  margin-right: -50vw !important;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  padding: 84px 0 88px !important;
+  overflow: hidden !important;
+  isolation: isolate !important;
+  background: radial-gradient(circle at center, rgba(145,95,0,.10), transparent 62%) !important;
+}
+.recruitment-showcase::before,
+.official-access-showcase::before,
+.recruitment-showcase::after,
+.official-access-showcase::after{
+  content:"" !important;
+  position:absolute !important;
+  left:0 !important;
+  right:0 !important;
+  height:1px !important;
+  pointer-events:none !important;
+  background:linear-gradient(90deg, transparent 0%, rgba(245,200,91,.06) 12%, rgba(245,200,91,.26) 50%, rgba(245,200,91,.06) 88%, transparent 100%) !important;
+}
+.recruitment-showcase::before,
+.official-access-showcase::before{top:0 !important}
+.recruitment-showcase::after,
+.official-access-showcase::after{bottom:0 !important}
+.recruitment-showcase .showcase-shell,
+.official-access-showcase .showcase-shell{
+  position: relative !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  overflow: hidden !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.recruitment-showcase .showcase-shell::before,
+.recruitment-showcase .showcase-shell::after,
+.official-access-showcase .showcase-shell::before,
+.official-access-showcase .showcase-shell::after{
+  display:none !important;
+}
+.recruitment-showcase .showcase-backdrop,
+.official-access-showcase .showcase-backdrop{
+  inset:0 !important;
+  opacity: .11 !important;
+  filter: saturate(.75) brightness(.38) contrast(1.04) blur(.2px) !important;
+  transform: scale(1.02) !important;
+}
+.recruitment-showcase .showcase-backdrop{background-position:center 38% !important}
+.official-access-showcase .showcase-backdrop{background-position:center 46% !important}
+.recruitment-showcase .showcase-copy,
+.recruitment-showcase .showcase-tags,
+.recruitment-showcase .recruitment-grid-showcase,
+.recruitment-showcase .showcase-actions,
+.official-access-showcase .showcase-copy,
+.official-access-showcase .showcase-tags,
+.official-access-showcase .official-access-grid-showcase,
+.official-access-showcase .showcase-signature{
+  max-width: 1500px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 48px !important;
+  padding-right: 48px !important;
+}
+.recruitment-showcase .showcase-copy,
+.official-access-showcase .showcase-copy{
+  text-align:center !important;
+  margin-bottom: 24px !important;
+}
+.recruitment-showcase .showcase-copy h2,
+.official-access-showcase .showcase-copy h2{max-width: 980px !important; margin:0 auto 10px !important}
+.recruitment-showcase .showcase-copy p,
+.official-access-showcase .showcase-copy p{max-width: 760px !important; margin:0 auto !important}
+.recruitment-showcase .showcase-tags,
+.official-access-showcase .showcase-tags{justify-content:center !important; margin-bottom: 28px !important}
+.recruitment-showcase .recruitment-grid-showcase,
+.official-access-showcase .official-access-grid-showcase{margin-top: 0 !important}
+.recruitment-showcase .showcase-actions{margin-top: 24px !important; justify-content:center !important}
+.official-access-showcase .showcase-signature{padding-top: 20px !important; opacity:.92 !important}
+.recruitment-showcase .showcase-card,
+.official-access-showcase .portal-card{
+  backdrop-filter: blur(4px) !important;
+  background: linear-gradient(180deg, rgba(14,12,10,.58), rgba(7,7,6,.82)) !important;
+  box-shadow: 0 12px 28px rgba(0,0,0,.18), inset 0 0 0 1px rgba(255,255,255,.02) !important;
+}
+@media (max-width: 1200px){
+  .recruitment-showcase .showcase-copy,
+  .recruitment-showcase .showcase-tags,
+  .recruitment-showcase .recruitment-grid-showcase,
+  .recruitment-showcase .showcase-actions,
+  .official-access-showcase .showcase-copy,
+  .official-access-showcase .showcase-tags,
+  .official-access-showcase .official-access-grid-showcase,
+  .official-access-showcase .showcase-signature{padding-left: 28px !important; padding-right: 28px !important}
+}
+@media (max-width: 980px){
+  .recruitment-showcase,
+  .official-access-showcase{padding: 58px 0 62px !important; margin: 18px 0 !important}
+  .recruitment-showcase .showcase-backdrop,
+  .official-access-showcase .showcase-backdrop{opacity:.08 !important}
+  .recruitment-showcase .showcase-copy,
+  .recruitment-showcase .showcase-tags,
+  .recruitment-showcase .recruitment-grid-showcase,
+  .recruitment-showcase .showcase-actions,
+  .official-access-showcase .showcase-copy,
+  .official-access-showcase .showcase-tags,
+  .official-access-showcase .official-access-grid-showcase,
+  .official-access-showcase .showcase-signature{padding-left: 20px !important; padding-right: 20px !important}
+}

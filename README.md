@@ -1,17 +1,15 @@
-# Luxury RP — V5.1.8 Home Band Polish
+# Luxury RP — V5.1.9 Fullwidth Band Fix
 
-Base issue de la V5.1.7.
+Base issue de la V5.1.8.
 
 ## Objectif
+Corriger réellement les deux sections de l’accueil afin d’obtenir un rendu en bandeaux pleine largeur, avec des fonds beaucoup plus subtils et une finition plus premium.
 
-Transformer les deux sections de l’accueil concernées en véritables bandeaux pleine largeur, plus élégants et mieux intégrés à la direction artistique globale.
+## Ajustements
+- suppression du rendu en gros blocs centrés ;
+- sections Recrutements et Portail officiel en véritables bandeaux full width ;
+- fonds fortement atténués ;
+- séparateurs haut / bas plus fins ;
+- lecture plus élégante et plus fluide.
 
-## Ajustements principaux
-
-- suppression de l’effet “gros rectangle” sur les deux fonds ;
-- sections Recrutements et Portail officiel en bandeaux larges ;
-- visuels de fond nettement plus discrets ;
-- séparations haut/bas plus fines et plus premium ;
-- meilleure intégration dans la continuité de la home.
-
-Version : V5.1.8 — Home Band Polish
+Version : V5.1.9 — Fullwidth Band Fix
