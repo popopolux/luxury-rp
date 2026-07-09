@@ -434,7 +434,7 @@ window.LUXURY_MAP_LOCATIONS = [
     "icon": "✦",
     "x": 76,
     "y": 84,
-    "image": "assets/img/ville/ville_cayo_bridge_01.webp",
+    "image": "assets/img/ville/ville_cayo_bridge_01.webp?v=514",
     "page": "map.html",
     "district": "Île de Cayo",
     "type": "Île / destination",

@@ -1,4 +1,4 @@
-# Luxury RP — V5.1.3 — Media Protection Polish
+# Luxury RP — V5.1.4 — Asset Loading Fix
 
 Version basée sur la V5.1.1 stable, avec enrichissement visuel des fiches groupes et lieux.
 
@@ -27,3 +27,10 @@ Discord officiel : https://discord.gg/7u3SUx9VGF
 - Directive `noimageindex` ajoutée aux pages HTML pour limiter l’indexation images par les moteurs compatibles.
 
 Important : aucun site public ne peut empêcher une capture d’écran, l’accès par outils développeur ou le téléchargement technique d’un fichier exposé dans le navigateur. Cette version met en place une barrière propre, premium et dissuasive, sans casser l’expérience utilisateur.
+
+
+## V5.1.4 — Asset Loading Fix
+- Ajout de fallbacks JPEG pour les nouveaux visuels intégrés en V5.1.2.
+- Cache-busting appliqué aux nouveaux visuels pour éviter les anciens 404 conservés par le navigateur/GitHub Pages.
+- Correction du chemin Cayo utilisé par la carte.
+- Validation des références images HTML : 0 chemin cassé.

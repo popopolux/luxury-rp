@@ -1,12 +1,11 @@
 {
-  "version": "V5.1.3",
-  "assets_images": 119,
-  "optimizations": [
-    "Images WebP conservées",
-    "Lazy loading conservé",
-    "Protection médias ajoutée sans librairie externe",
-    "Aucun script tiers ajouté",
-    "noimageindex ajouté aux pages HTML"
+  "version": "V5.1.4",
+  "status": "asset-loading-fix",
+  "notes": [
+    "Fallbacks JPEG ajoutés pour les nouveaux médias issus du dernier pack.",
+    "Les WebP restent les sources principales pour la performance.",
+    "Les JPEG ne se chargent que si le WebP échoue, afin de préserver la vitesse du site.",
+    "Chemin Cayo carte corrigé."
   ],
-  "notes": "Le blocage du clic droit ne protège pas contre les captures ou outils développeur, mais réduit la copie directe et garde une expérience propre."
+  "image_count": 145
 }

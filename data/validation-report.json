@@ -1,7 +1,5 @@
 {
-  "version": "V5.1.3",
-  "checked_at": "2026-07-09",
-  "missing_references": [],
-  "missing_count": 0,
-  "notes": "Protection médias ajoutée. Les protections navigateur restent dissuasives et non absolues. Les références locales HTML/CSS/JS ont été vérifiées."
+  "version": "V5.1.4",
+  "broken_references": [],
+  "broken_count": 0
 }

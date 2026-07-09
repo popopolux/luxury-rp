@@ -1,3 +1,33 @@
+
+
+// Luxury RP V5.1.4 — Asset loading safety net
+(function(){
+  function fallbackImage(img){
+    if(!img || img.dataset.lrFallbackApplied === '1') return;
+    const fallback = img.dataset.fallback;
+    if(!fallback) return;
+    img.dataset.lrFallbackApplied = '1';
+    img.src = fallback;
+  }
+  function bind(img){
+    if(!img || img.dataset.lrFallbackBound === '1') return;
+    img.dataset.lrFallbackBound = '1';
+    img.addEventListener('error',()=>fallbackImage(img));
+    if(img.complete && img.naturalWidth === 0) fallbackImage(img);
+  }
+  document.querySelectorAll('img[data-fallback]').forEach(bind);
+  const mo = new MutationObserver(records=>{
+    records.forEach(record=>{
+      record.addedNodes.forEach(node=>{
+        if(node.nodeType !== 1) return;
+        if(node.matches?.('img[data-fallback]')) bind(node);
+        node.querySelectorAll?.('img[data-fallback]').forEach(bind);
+      });
+    });
+  });
+  mo.observe(document.documentElement,{childList:true,subtree:true});
+})();
+
 const lightbox = document.querySelector('.lightbox');
 document.querySelectorAll('[data-lightbox]').forEach(img => {
   img.addEventListener('click', () => {
