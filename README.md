@@ -1,36 +1,28 @@
-# Luxury RP — V5.1.4 — Asset Loading Fix
+# Luxury RP — V5.1.5 Thematic Background Polish
 
-Version basée sur la V5.1.1 stable, avec enrichissement visuel des fiches groupes et lieux.
+Version de travail issue de la V5.1.4 stable.
 
-## Nouveautés
-- Intégration des nouveaux visuels gangs, mafias et bikers.
-- Mise à jour des fiches Ballas, Vagos, Marabunta, Bratva, Mafia Arménienne, Cosa Nostra, Lost MC et SOA.
-- Ajout de nouveaux visuels Casino.
-- Ajout d’une nouvelle vue de Cayo Perico.
-- Galeries de fiches nettoyées : moins de doublons, plus de cohérence visuelle.
-- Galerie médias d’accueil enrichie.
-- Manifest images et rapport performance régénérés.
+## Objectif
 
-## Note carte publique
-La carte interactive publique conserve son principe validé : pas d’affichage des points illégaux. Cayo reste visible comme repère géographique, sans exposition sensible.
+Renforcer la vie visuelle des fiches sociétés, gangs, mafias, bikers et cartel sans casser la structure validée du site.
 
-Discord officiel : https://discord.gg/7u3SUx9VGF
+## Améliorations principales
 
+- fonds d’ambiance subtils sur chaque fiche officielle ;
+- accents colorés propres à chaque univers ;
+- bandeaux thématiques légers en arrière-plan ;
+- meilleure différenciation entre sociétés, gangs, mafias, bikers et cartel ;
+- cartes de la page sociétés plus vivantes au survol ;
+- textes de certaines zones génériques retravaillés pour rester élégants, clairs et cohérents ;
+- lisibilité préservée grâce aux overlays sombres et aux dégradés contrôlés ;
+- version GitHub Pages compatible.
 
-## V5.1.3 — Media Protection Polish
+## Règle conservée
 
-- Protection non intrusive des visuels publics.
-- Désactivation du clic droit sur les images et zones médias.
-- Désactivation du glisser-déposer des images.
-- Message copyright élégant au clic droit : “Visuel protégé — © Luxury RP”.
-- Badge discret sur les médias agrandis.
-- Directive `noimageindex` ajoutée aux pages HTML pour limiter l’indexation images par les moteurs compatibles.
+La carte interactive publique ne révèle pas les points illégaux. Cayo reste visible uniquement comme repère géographique.
 
-Important : aucun site public ne peut empêcher une capture d’écran, l’accès par outils développeur ou le téléchargement technique d’un fichier exposé dans le navigateur. Cette version met en place une barrière propre, premium et dissuasive, sans casser l’expérience utilisateur.
+## Déploiement
 
+Uploader le contenu du dossier à la racine du dépôt GitHub Pages.
 
-## V5.1.4 — Asset Loading Fix
-- Ajout de fallbacks JPEG pour les nouveaux visuels intégrés en V5.1.2.
-- Cache-busting appliqué aux nouveaux visuels pour éviter les anciens 404 conservés par le navigateur/GitHub Pages.
-- Correction du chemin Cayo utilisé par la carte.
-- Validation des références images HTML : 0 chemin cassé.
+Version : V5.1.5 — Thematic Background Polish

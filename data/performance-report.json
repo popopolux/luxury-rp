@@ -1,11 +1,14 @@
 {
-  "version": "V5.1.4",
-  "status": "asset-loading-fix",
+  "version": "V5.1.5",
+  "asset_total_bytes": 38327923,
+  "asset_total_mb": 36.55,
+  "by_extension_bytes": {
+    ".txt": 7205,
+    ".webp": 31226238,
+    ".jpg": 7094480
+  },
   "notes": [
-    "Fallbacks JPEG ajoutés pour les nouveaux médias issus du dernier pack.",
-    "Les WebP restent les sources principales pour la performance.",
-    "Les JPEG ne se chargent que si le WebP échoue, afin de préserver la vitesse du site.",
-    "Chemin Cayo carte corrigé."
-  ],
-  "image_count": 145
+    "No new heavy imagery added; thematic layer uses existing optimized images as subtle CSS backgrounds.",
+    "WebP assets remain prioritized and fallbacks from V5.1.4 are preserved."
+  ]
 }
