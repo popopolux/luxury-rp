@@ -1,15 +1,16 @@
-# Luxury RP — V5.1.9 Fullwidth Band Fix
+# Luxury RP — V5.2.0 Editorial Luxury Upgrade
 
-Base issue de la V5.1.8.
+Base issue de la V5.1.9.
 
 ## Objectif
-Corriger réellement les deux sections de l’accueil afin d’obtenir un rendu en bandeaux pleine largeur, avec des fonds beaucoup plus subtils et une finition plus premium.
+Faire monter la page d’accueil d’un cran pour lui donner un vrai rythme éditorial premium, plus de cohérence visuelle et une lecture plus fluide pour les nouveaux joueurs comme pour les habitués.
 
-## Ajustements
-- suppression du rendu en gros blocs centrés ;
-- sections Recrutements et Portail officiel en véritables bandeaux full width ;
-- fonds fortement atténués ;
-- séparateurs haut / bas plus fins ;
-- lecture plus élégante et plus fluide.
+## Ajustements principaux
+- hero enrichi avec métriques et hiérarchie plus premium ;
+- affinage global des espacements et des séparateurs ;
+- bandeaux home mieux intégrés dans le scroll ;
+- cards, blocs et fonds plus nobles et plus cohérents ;
+- section panel renforcée en lisibilité ;
+- cohérence visuelle générale plus luxe et plus éditoriale.
 
-Version : V5.1.9 — Fullwidth Band Fix
+Version : V5.2.0 — Editorial Luxury Upgrade
