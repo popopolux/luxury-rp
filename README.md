@@ -1,4 +1,4 @@
-# Luxury RP — V5.0.4 Legal Map Polish
+# Luxury RP — V5.0.5 Legal Pages Polish
 
 # Luxury RP — V5.0.0 City Command Center — Hero & Map Assets
 
@@ -55,3 +55,11 @@ La V4.5.4 reste la version stable précédente. Cette V5 est une nouvelle base v
 - Conservation uniquement des institutions, services publics, entreprises, événements et lieux clés visibles.
 - Cayo Perico reste présent comme lieu / île, sans affichage de données illégales.
 - Correction du filtre `Lieux clés` pour ne plus afficher toutes les catégories.
+
+
+## V5.0.5 — Legal Pages Polish
+
+- Refonte premium des pages `terms.html`, `privacy.html` et `cookies.html`.
+- Ajout d’un contenu plus complet : éditeur, hébergement, propriété intellectuelle, responsabilité, données personnelles, droits utilisateur, cookies et évolutions futures.
+- Ajout de styles dédiés aux pages légales pour un rendu plus sérieux et cohérent avec le portail V5.
+- Base conçue pour rester honnête : les informations administratives exactes devront être complétées si Luxury RP devient une structure juridique ou commerciale officielle.
