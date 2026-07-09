@@ -1,19 +1,15 @@
-# Luxury RP — V5.2.1 Editorial Micro-Polish
+# Luxury RP — V5.2.2 Heading Spacing Fix
 
-Base issue de la V5.2.0.
+Base issue de la V5.2.1.
 
 ## Objectif
+Corriger l’espacement vertical entre les surtitres et les grands titres des deux bandeaux centraux de l’accueil.
 
-Affiner la page d’accueil au pixel près après la montée en gamme V5.2.0 : respirations, séparateurs, cards, transitions et rythme éditorial.
+## Ajustements
+- respiration augmentée entre “Opportunités RP” et “Recrutements ouverts” ;
+- respiration augmentée entre “Portail officiel” et “Votre accès officiel à Luxury RP” ;
+- maintien du rendu pleine largeur ;
+- séparateurs et fonds conservés dans l’esprit V5.2.1 ;
+- lecture plus élégante et plus cohérente avec les autres blocs.
 
-## Ajustements principaux
-
-- séparateurs plus fins entre les grandes zones ;
-- meilleur rythme vertical sur la home ;
-- hero et métriques plus propres ;
-- cards principales plus nobles au survol ;
-- blocs Recrutements / Portail officiel mieux intégrés ;
-- panel et médias plus cohérents dans la continuité du scroll ;
-- version homogénéisée dans les footers et le changelog.
-
-Version : V5.2.1 — Editorial Micro-Polish
+Version : V5.2.2 — Heading Spacing Fix
