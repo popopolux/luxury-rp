@@ -1,37 +1,24 @@
-# Luxury RP — V5.1.0 Official Platform Upgrade
+# Luxury RP — V5.1.1 UX & Readability Polish
 
-Version stable de travail basée sur **V5.0.5 Legal Pages Polish**.
+Version stable basée sur la V5.1.0 Official Platform Upgrade.
 
-## Ajouts majeurs
+## Objectif de cette version
 
-1. **Actualités / Changelog** — `changelog.html`
-2. **Recrutements ouverts** — section dédiée sur l'accueil
-3. **Guide d’arrivée joueur** — `start.html`
-4. **Fiches sociétés enrichies** — blocs officiels : rôle, activités, profil recherché, statut recrutement
-5. **Règlement / Code RP** — `rules.html`
-6. **Optimisation mobile** — nouveaux breakpoints et blocs responsives
-7. **Luxury RP — Vision** — `vision.html`
-8. **Performance / poids images**
-   - images WebP conservées ;
-   - lazy loading ajouté sur les images non critiques ;
-   - preload du hero V5 ;
-   - suppression de 2 doublons exacts ;
-   - manifest images régénéré ;
-   - rapport performance : `data/performance-report.json`.
+Cette mise à jour améliore le parcours utilisateur et la lisibilité sans casser la structure validée :
 
-## Liens utiles
+- micro-correctif visuel du bloc **« Un panel pensé pour gérer la ville »** ;
+- ajout d’un bloc **Parcours joueur** pour guider les nouveaux arrivants et les joueurs déjà en ville ;
+- mise en avant du **Guide d’arrivée**, du **Règlement**, de la **Carte interactive**, des **Recrutements** et du **Changelog** ;
+- reprise des textes trop généraux dans les fiches sociétés ;
+- conservation de la carte publique sans points illégaux ;
+- version, manifest et rapports de validation mis à jour.
 
-- Discord officiel : https://discord.gg/7u3SUx9VGF
-- Accueil : `index.html`
-- Carte interactive : `map.html`
-- Sociétés : `societes.html`
-- Actualités : `changelog.html`
-- Guide d’arrivée : `start.html`
-- Règlement : `rules.html`
-- Vision : `vision.html`
+## Upload GitHub Pages
 
-## Protocole
+Dézipper le dossier puis uploader le contenu du dossier `luxury-rp-v5-1-1-ux-readability-polish/` à la racine du dépôt GitHub Pages.
 
-La structure V5 existante n'a pas été cassée : les pages et assets de V5.0.5 sont conservés, puis enrichis proprement.
+Ne pas uploader le dossier parent lui-même.
 
-**Base recommandée après validation GitHub :** `Luxury RP V5.1.0 — Public Stable Candidate`.
+## Discord
+
+https://discord.gg/7u3SUx9VGF

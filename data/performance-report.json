@@ -1,11 +1,18 @@
 {
-  "lazy_loading": "enabled on non-critical images",
-  "critical_preload": "hero image preloaded on main pages",
-  "duplicates_removed": [
-    "assets/img/hero/hero-avion-v3-luxury-rp.webp",
-    "assets/img/map/map-los-santos-cayo-v1.webp"
-  ],
-  "format_policy": "WebP assets retained for GitHub Pages performance",
-  "total_images": 94,
-  "total_mb": 24.94
+  "version": "V5.1.1",
+  "checked_local_references": 1424,
+  "missing_references": [],
+  "asset_count": 95,
+  "asset_bytes_total": 26150969,
+  "formats": {
+    "txt": 1,
+    "webp": 94
+  },
+  "duplicate_groups": [],
+  "notes": [
+    "Hero preload conservé",
+    "Images HTML en lazy loading lorsque pertinent",
+    "Carte publique conservée sans points illégaux",
+    "Bloc panel assombri par overlay CSS sans remplacement d’image"
+  ]
 }
